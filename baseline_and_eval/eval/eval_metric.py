@@ -281,7 +281,8 @@ class mol_opt_evaluater():
     
 
 def is_valid_smiles(smiles):
-    mol = Chem.MolFromSmiles(smiles)
-    if mol is None:
+    try:
+        return Chem.MolFromSmiles(smiles) is not None
+    except:
+        print(smiles)
         return False
-    return True
