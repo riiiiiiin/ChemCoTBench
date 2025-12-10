@@ -1,0 +1,602 @@
+[
+    {
+        "id": "1011c50e-1aac-4237-b521-2604e0b51703",
+        "src_smiles": "c1ccc(-c2cc(NCc3cccnc3)n3nccc3n2)cc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"c1ccc(-c2cc(NCc3cccnc3)n3nccc3n2)cc1\"\n}"
+    },
+    {
+        "id": "d7e555f8-d38d-4e91-9a40-c056593fa706",
+        "src_smiles": "O=c1cc(Br)c2cccc([N+](=O)[O-])c2[nH]1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"O=c1cc(Br)c2cccc([N+](=O)[O-])c2[nH]1\"\n}"
+    },
+    {
+        "id": "c5360551-e9e4-4019-85b0-ff0320ed93de",
+        "src_smiles": "O=C(O)c1ccccc1Nc1ccnc(N2CCCCC2)n1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"O=C(O)c1ccccc1Nc1ccnc(N2CCCCC2)n1\"\n}"
+    },
+    {
+        "id": "05b95134-5567-492d-8c48-d9cbeef50ef8",
+        "src_smiles": "COc1cc2ncnc(N(C)c3ccc(C)c(Cl)c3)c2cc1OC",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1cc2ncnc(N(C)c3ccc(F)c(Cl)c3)c2cc1OC\"\n}"
+    },
+    {
+        "id": "74f5420a-b10e-4e7f-bd41-1c6ad57ea128",
+        "src_smiles": "COc1ccc(-c2cc3c(NCc4ccccc4)ncnc3o2)cc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1ccc(-c2cc3c(NCc4ccccc4)ncnc3o2)cc1\"\n}"
+    },
+    {
+        "id": "5908c04d-db70-48a7-add1-33d4ace2110a",
+        "src_smiles": "CNc1nn2c(C)cc(CO)nc2c1S(=O)(=O)c1ccccc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CNc1nn2c(C)cc(CO)nc2c1S(=O)(=O)c1ccc(F)cc1\"\n}"
+    },
+    {
+        "id": "6072e7a9-f386-46ec-bf58-f9d58a716da9",
+        "src_smiles": "Nc1nonc1-c1nc2ccccc2n1Cc1ccncc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"NC(=O)c1nc2ccccc2n1Cc1ccncc1\"\n}"
+    },
+    {
+        "id": "bfb26b40-5181-43b8-b951-1f28f1126d77",
+        "src_smiles": "CC(C)=Cc1ccc2cc(NC(=O)C3CC3)ncc2c1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(C)=Cc1ccc2cc(NC(=O)C3CC3)ncc2c1\"\n}"
+    },
+    {
+        "id": "41220021-0978-4755-8e85-49b4b4dc1eaa",
+        "src_smiles": "CCc1[nH]c2ccc(OC)cc2c1C1=CCNCC1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CCc1[nH]c2ccc(OC)cc2c1C1=CCNCC1\"\n}"
+    },
+    {
+        "id": "c11d60da-b323-49dc-80c5-925c8e24f6b5",
+        "src_smiles": "Cc1ccc(-c2nnc(SCc3ccccc3)o2)c(O)c1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"Cc1ccc(-c2nnc(SCc3ccccc3)o2)c(O)c1\"\n}"
+    },
+    {
+        "id": "7387f36a-bd1a-481b-9598-cfc6bbdf33e5",
+        "src_smiles": "O=C(O)CSc1nonc1-c1ccccc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"O=C(O)CSc1ncnc1-c1ccccc1\"\n}"
+    },
+    {
+        "id": "0e68c6d2-e877-45c2-8272-93b31593a836",
+        "src_smiles": "CN(C)c1ccc(C(=O)NCc2ccccc2)cc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CN(C)c1ccc(C(=O)NCc2ccc(OCC3OC(CO)C(O)C3O)cc2)cc1\"\n}"
+    },
+    {
+        "id": "a5532668-c72f-4b19-bf66-47680c16003e",
+        "src_smiles": "Nc1ccccc1NC(=O)c1ccc(CNc2ncccn2)cc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"NC(=O)c1ccc(CNc2ncccn2)cc1\"\n}"
+    },
+    {
+        "id": "8561291e-6df2-40dd-be22-5a360ef68bb9",
+        "src_smiles": "COc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1n[nH]c2cc(NC(=O)NC(C)c3ccc(F)cc3)ncc12\"\n}"
+    },
+    {
+        "id": "33ff4a69-2ca2-403f-b006-28aeaf090108",
+        "src_smiles": "CCC(C)Nc1ncnc2cc(OC)c(OC)cc12",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(C)Nc1ncnc2cc(O)c(O)cc12\"\n}"
+    },
+    {
+        "id": "c5e40795-9703-4dab-a562-9c5618c9ae21",
+        "src_smiles": "COC(=O)CSc1nc(-c2ccc(F)cc2)c(-c2ccncc2)[nH]1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1ccc2nc(-c3ccc(F)cc3)[nH]c2c1\"\n}"
+    },
+    {
+        "id": "1ef081d6-4303-418d-855c-a9ab6be6ff0a",
+        "src_smiles": "Cc1cccc2[nH]c(-c3ccccn3)nc12",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"Cc1cccc2[nH]c(-c3ccccn3)nc12\"\n}"
+    },
+    {
+        "id": "fb93706d-4e2f-4b9b-bf32-f3b78309db58",
+        "src_smiles": "CN1CCC(c2c[nH]c3ccc(N=C(N)c4cccs4)cc23)CC1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CN1CCC(c2c[nH]c3ccc(N=C(N)c4cccs4)cc23)CC1\"\n}"
+    },
+    {
+        "id": "d45cb72c-6319-47a5-8b83-fb6b32d3e9e1",
+        "src_smiles": "COc1cc(OC)c(-c2ccnc(N)n2)c(OC)c1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1cc(OC)c(-c2ccnc(N)n2)c(OC)c1\"\n}"
+    },
+    {
+        "id": "839c5de4-fcfd-4ee4-af8f-d2e41d002172",
+        "src_smiles": "COc1cc2ncnc(NC(C)C)c2cc1OC",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1cc2ncnc(NC(C)C)c2cc1OC\"\n}"
+    },
+    {
+        "id": "1e45b89e-b0e0-438d-baaf-22f0075782aa",
+        "src_smiles": "Nc1ccnc(Nc2ccc(Oc3ccc(Cl)cc3)cc2)c1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"Nc1ccnc(Nc2ccc(Oc3ccc(Cl)cc3)cc2)c1\"\n}"
+    },
+    {
+        "id": "6e254a13-de16-41cb-aea2-1b66fb5d799d",
+        "src_smiles": "c1ccc(-c2c[nH]c(-c3ccccc3)n2)cc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"c1ccc(-c2c[nH]c(-c3ccccc3)n2)cc1\"\n}"
+    },
+    {
+        "id": "100bfd5f-58b5-4049-a43b-4d7ae4037b16",
+        "src_smiles": "c1cnc(-c2c[nH]c3ncnc(N4CCOCC4)c23)cn1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"c1cnc(-c2c[nH]c3ncnc(N4CCOCC4)c23)cn1\"\n}"
+    },
+    {
+        "id": "3ce22203-8c89-4445-8cdf-79b022ec8627",
+        "src_smiles": "CC(C)n1cnc2c(NCc3ccccc3)ncnc21",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(C)n1cnc2c(NCc3ccc(F)cc3)ncnc21\"\n}"
+    },
+    {
+        "id": "c778855b-d9d9-4a7a-8b36-7205464d1246",
+        "src_smiles": "COc1ccc(SC)cc1CNC1CCCNC1c1ccccc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1ccc(SC)cc1CNC1CCCNC1c1ccccn1\"\n}"
+    },
+    {
+        "id": "69e02f24-a7bd-4d4f-b93a-e3497d1f6814",
+        "src_smiles": "c1ccc(Cn2cc(CSc3nnc(C4CCCC4)o3)nn2)cc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"c1ccc(Cn2cc(CSc3nnc(C4CCCC4)o3)nn2)cc1\"\n}"
+    },
+    {
+        "id": "4b9d3037-1eb1-4a71-946d-c0b2a998e7b7",
+        "src_smiles": "Cc1cc2[nH]ncc2cc1-c1ccccc1C(F)(F)F",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"Cc1cc2[nH]ncc2cc1-c1ccccc1C(F)(F)F\"\n}"
+    },
+    {
+        "id": "8759da45-960b-4c63-bf85-5602a82af0c4",
+        "src_smiles": "c1ccc2c(N3CCCCCC3)nc(-c3ccncc3)nc2c1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"c1ccc2c(N3CCCCCN3)nc(-c3ccncc3)nc2c1\"\n}"
+    },
+    {
+        "id": "3fc40623-5950-4022-9de4-284163bc0cee",
+        "src_smiles": "COc1ccc(-c2nnc(SCC#N)o2)cc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1ccc(-c2nnc(SCC#N)o2)cc1\"\n}"
+    },
+    {
+        "id": "5fb99f4f-fd07-4c07-97e0-8a9849d90733",
+        "src_smiles": "Cn1ccc(Oc2ccc3cc(NC(=O)C4CC4)ncc3c2)n1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"Cn1ccc(Oc2ccc3cc(NC(=O)C4CC4)ncc3c2)n1\"\n}"
+    },
+    {
+        "id": "20588ef8-7497-42ea-8611-ffc0565cb3a4",
+        "src_smiles": "OCc1cccc(Nc2nc(-c3cccnc3)nc3ccccc23)c1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"OCc1cccc(Nc2nc(-c3cccnc3)nc3sc(C)cnc23)c1\"\n}"
+    },
+    {
+        "id": "a14aa088-a9d2-4e3b-a5d4-fea12d491ba1",
+        "src_smiles": "Cn1nc(C(N)=O)c2c1-c1nc(NCc3ccccc3)ncc1CC2",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"Cn1nc(C(N)=O)c2c1-c1nc(NCc3ccccc3)ncc1CC2\"\n}"
+    },
+    {
+        "id": "869b0ccf-1964-4e4f-aab5-f36b08c6f2aa",
+        "src_smiles": "Cc1sc2ncnc(NCCCO)c2c1C",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"Cc1sc2ncnc(NCCCO)c2c1C\"\n}"
+    },
+    {
+        "id": "b4661835-a703-4d38-92a2-54b9352f1cf1",
+        "src_smiles": "CCNc1nc2cc(Cl)c(C#CCCCC#N)cc2nc1NCC",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CCNc1nc2cc(Cl)c(C#CCCCC#N)cc2nc1NCC\"\n}"
+    },
+    {
+        "id": "375b13c6-05f1-427e-9289-3d3ee21a0815",
+        "src_smiles": "c1ccc(Cn2c(-c3ccccc3)nc3ccccc32)cc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"c1ccc(Cn2c(-c3ccccc3)nc3ccccc32)cc1\"\n}"
+    },
+    {
+        "id": "98ceab0f-93f0-434b-b659-407cdb6f8d31",
+        "src_smiles": "COc1ccc2nc(NC(=O)CSc3ccccc3)sc2c1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1ccc2nc(NC(=O)CSc3ccccn3)sc2c1\"\n}"
+    },
+    {
+        "id": "75140d71-458c-45af-a331-3c53bbfc5682",
+        "src_smiles": "c1ccc(-c2nc(-c3ccccc3)c(-c3ccccc3)[nH]2)cc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"c1ccc(-c2nc(-c3ccccc3)c(-c3ccccc3)[nH]2)cc1\"\n}"
+    },
+    {
+        "id": "6a6d70e3-7a3a-408b-bcde-f09733552d14",
+        "src_smiles": "COc1n[nH]c2cc(NC(=O)NC(C)c3ccc(F)cc3)ncc12",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1n[nH]c2cc(NC(=O)NC(C)c3ccc(F)cc3)ncc12\"\n}"
+    },
+    {
+        "id": "1feaa28f-4f6c-47ef-87e8-e8fdca578cd1",
+        "src_smiles": "COc1ccc(C(=O)OCC(=O)NCc2ccco2)cc1OC",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1ccc(C(=O)NCc2ccco2)cc1OC\"\n}"
+    },
+    {
+        "id": "9c133f75-9822-409d-9648-ffc6165fccd4",
+        "src_smiles": "O=C1NC(=O)C(=Cc2ccc(O)cc2)N1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"O=C1NC(=O)C(=Cc2ccc(OCC3OC(CO)C(O)C3O)cc2)N1\"\n}"
+    },
+    {
+        "id": "e89326ce-f99a-4cc3-b2dc-78793aa89511",
+        "src_smiles": "CC(CO)COc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(CO)COc1n[nH]c2cc(NC(=O)NC(C)c3ccc(F)cc3)ncc12\"\n}"
+    },
+    {
+        "id": "e57f87a8-abe2-4aa8-ab9e-9f80b196f90d",
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(OCc3ccccc3)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(NC(=O)Nc1cc2[nH]nc(OCc3ccc(O)c3)c2cn1)c1ccccc1\"\n}"
+    },
+    {
+        "id": "96f5148d-cbab-4b68-b4d1-ab1a60a80229",
+        "src_smiles": "CC(c1ccncc1)c1nnc(Nc2ccc(Cl)cc2)c2ccccc12",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(c1ccncc1)c1nnc(Nc2ccc(Cl)cc2)c2ccccc12\"\n}"
+    },
+    {
+        "id": "63742c14-ae89-4b53-9df7-3e0b986f29cf",
+        "src_smiles": "CCC(O)COc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(C)Oc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12\"\n}"
+    },
+    {
+        "id": "92c308cb-1dcc-4ce2-90f0-6db558cb58e5",
+        "src_smiles": "COc1ccccc1-c1ccc(CC(NC(=O)Cn2cnnn2)C(=O)O)cc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1ccccc1-c1ccc(CC(NC(=O)Cn2cnnn2)C(=O)O)cc1\"\n}"
+    },
+    {
+        "id": "f52c4f9a-bfc6-4ecf-a958-c5ce67ddf5e0",
+        "src_smiles": "Brc1cnc(N2CCOCC2)nc1Nc1cc(C2CC2)[nH]n1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"Brc1cnc(N2CCOCC2)nc1Nc1cc(C2CC2)[nH]n1\"\n}"
+    },
+    {
+        "id": "c10872a2-6299-4ad6-9605-f7a3990567f5",
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(OCc3ccccc3)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(NC(=O)Nc1cc2[nH]nc(OCc3ccc(O)c3)c2cn1)c1ccccc1\"\n}"
+    },
+    {
+        "id": "8eb113d9-1793-4420-9fa1-7a82f36ca6a9",
+        "src_smiles": "CC(CCn1ccc(-c2ccc(F)cc2)cc1=O)(C(=O)NO)S(C)(=O)=O",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(CCn1ccc(-c2ccc(F)cc2)cc1=O)(C(=O)NO)S(C)(=O)=O\"\n}"
+    },
+    {
+        "id": "2d483779-0045-410f-97ad-6d890d44b29e",
+        "src_smiles": "COCCSc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COCCSc1n[nH]c2cc(NC(=O)NC(C)c3ccc(F)cc3)ncc12\"\n}"
+    },
+    {
+        "id": "65a33221-d569-4564-bec0-1a2f68a1f9df",
+        "src_smiles": "COCCOc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COCCOc1n[nH]c2cc(NC(=O)NC(C)c3ccc(F)cc3)ncc12\"\n}"
+    },
+    {
+        "id": "994f654d-6594-4141-8734-9547daeeef28",
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(CNCC(F)F)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(NC(=O)Nc1cc2[nH]nc(CNCC(F)F)c2cn1)c1ccc(F)cc1\"\n}"
+    },
+    {
+        "id": "c2c812ac-5082-4f51-9426-e5101f7c4b46",
+        "src_smiles": "CCCNC(=O)N1C(C#N)C(c2ccc(C3=CCCCC3)cc2)C1CO",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CCNC(=O)N1C(C#N)C(c2ccc(C3=CCCCC3)cc2)C1CO\"\n}"
+    },
+    {
+        "id": "91e2ccb1-f8ea-44a9-bc27-3af43d6d9ac6",
+        "src_smiles": "Cc1cc(-c2c(-c3ccc(F)cc3)ncn2CCCN2CCOCC2)cc(C)n1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"Cc1cc(-c2c(-c3ccc(F)cc3)ncn2CCCN2CCOCC2)cc(C)n1\"\n}"
+    },
+    {
+        "id": "096adec5-e0bb-4d90-8204-2d06a0a31479",
+        "src_smiles": "COc1c(N2CCCC(N)C2)c(F)c(N)c2c(=O)c(C(=O)O)cn(C3CC3)c12",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1c(N2CCCC(N)C2)c(F)c(N)c2c(=O)c(C(=O)O)cn(C3CC3)c12\"\n}"
+    },
+    {
+        "id": "51a553dc-fe61-4913-9684-191843de59ed",
+        "src_smiles": "CC1CN(c2c(F)c(N)c3c(=O)c(C(=O)O)cn(C4CC4)c3c2F)C(C)CN1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC1CN(c2c(F)c(N)c3c(=O)c(C(=O)O)cn(C4CC4)c3c2F)C(C)CN1\"\n}"
+    },
+    {
+        "id": "12c5bbe3-b19e-4fb4-96ba-9316b80a2481",
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(OCc3cncs3)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(NC(=O)Nc1cc2[nH]nc(OCc3cncs3)c2cn1)c1ccc(F)cc1\"\n}"
+    },
+    {
+        "id": "e936abd1-a8dd-4b7d-a988-9ce48328e495",
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(S(C)(=O)=O)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(NC(=O)Nc1cc2[nH]nc(S(C)(=O)=O)c2cn1)c1ccc(F)cc1\"\n}"
+    },
+    {
+        "id": "ea041d2b-28ef-4306-97fe-7f3fa973fe5a",
+        "src_smiles": "CC(C)Nc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(C)Nc1ncc2cc(-c3ccc(F)cc3F)c(=O)n(C)c2n1\"\n}"
+    },
+    {
+        "id": "0f805e37-5556-456d-8f49-b5a4fce3fe33",
+        "src_smiles": "Cn1c(-c2ccnc(Oc3ccccc3)n2)c(-c2ccc(F)cc2)c(=O)n1C",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"Cn1c(-c2ccnc(Oc3ccc(F)cc3)n2)c(-c2ccc(F)cc2)c(=O)n1C\"\n}"
+    },
+    {
+        "id": "841eaba0-e74c-43ab-9e41-329c03fa9965",
+        "src_smiles": "COc1cc(OC)cc(-c2nnc(SCC(=O)c3ccccc3)o2)c1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1cc(OC)cc(-c2nnc(SCC(=O)c3ccc(F)cc3)o2)c1\"\n}"
+    },
+    {
+        "id": "2d740a39-e436-43ea-9374-4fb59c3f5352",
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(OCC3CCCO3)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(NC(=O)Nc1cc2[nH]nc(OCC3CCCO3)c2cn1)c1ccc(F)cc1\"\n}"
+    },
+    {
+        "id": "990d54ac-b8d9-4a5f-8a7a-44013911c905",
+        "src_smiles": "COCc1nc(NC(=O)NC(C)c2ccccc2)cc2[nH]nc(OC)c12",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1nc(NC(=O)NC(C)c2ccccc2)cc2[nH]nc(OC)c12\"\n}"
+    },
+    {
+        "id": "f81c4515-6b53-4cc0-94c2-79ddd1e37d98",
+        "src_smiles": "CC(=O)Nc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(=O)Nc1ncc2cc(-c3ccc(F)cccc3)c(=O)n(C)c2n1\"\n}"
+    },
+    {
+        "id": "f868065e-c71a-43b1-bdff-317c8a4a8d4c",
+        "src_smiles": "O=C(Nc1ccc(Cl)cc1)Nc1ccc(C(F)(F)F)cc1Cl",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"O=C(Nc1ccc(Cl)cc1)Nc1ccc(C(F)(F)F)cc1\"\n}"
+    },
+    {
+        "id": "ba2053f8-ea60-4938-a100-870c4c6f27dc",
+        "src_smiles": "CCN1CCN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2OC)CC1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CCN1CCN(c2c(F)cc3c(=O)c(C(=O)O)nc(C4CC4)c3c2OC)CC1\"\n}"
+    },
+    {
+        "id": "20b8137d-68fe-4147-9035-c350060f3db8",
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(CNCC(F)(F)F)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(NC(=O)Nc1cc2[nH]nc(CNCC(F)(F)F)c2cn1)c1ccc(F)cc1\"\n}"
+    },
+    {
+        "id": "16bd2d6c-d528-4328-8326-3536cb2cc885",
+        "src_smiles": "COC(C)(C)COc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1ccc2nc(NC(=O)NC(C)c3ccccc3)nc2c1\"\n}"
+    },
+    {
+        "id": "ff019990-1a85-46e4-a6cd-6292dbb949f5",
+        "src_smiles": "O=C(Nc1ncc(CCNc2ncnc3ccsc23)s1)NC1CCCCC1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"O=C(Nc1ncc(CCNc2ncnc3ccsc23)s1)NC1CCCCC1\"\n}"
+    },
+    {
+        "id": "0618ec40-06ed-4b5f-a912-81a81f83ee00",
+        "src_smiles": "O=C(Nc1cc(-c2ccccc2)ccc1O)c1ccc(CN2CCOCC2)cc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"O=C(Nc1cc(-c2ccccc2)ccc1O)c1ccc(CN2CCN(CC3CCCCC3)CC2)cc1\"\n}"
+    },
+    {
+        "id": "1b200c71-d664-48d3-a2ce-3ae0a7f5f425",
+        "src_smiles": "COc1ccc(C(O)(Cn2ccnc2)c2ccc(Br)cc2)cc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1ccc(C(O)(Cn2ccnc2)c2ccc(F)cc2)cc1\"\n}"
+    },
+    {
+        "id": "60aa148a-5a05-461c-91cb-9e02aabcc76e",
+        "src_smiles": "CC1CN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2Cl)CCN1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC1CN(c2c(F)cc3c(=O)c(C(=O)O)nc(C4CC4)c3c2Cl)CCN1\"\n}"
+    },
+    {
+        "id": "911f6291-6e83-4e39-9674-e965b8668154",
+        "src_smiles": "CN1CCN(c2ncc3nc(CCc4ccccc4)c(=O)n(C)c3n2)CC1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CN1CCN(c2ncc3nc(CCc4ccccc4)c(=O)n(C)c3n2)CC1\"\n}"
+    },
+    {
+        "id": "bf46164e-71d3-44d6-93e1-abbe54b520a6",
+        "src_smiles": "CCC(C)(C)Nc1c(C#N)cnc2cnc(NCc3cccnc3)cc12",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(C)(C)Nc1c(C#N)cnc2cnc(NCc3cccnc3)cc12\"\n}"
+    },
+    {
+        "id": "0d250346-bc86-46ae-a25e-05e159c32c17",
+        "src_smiles": "CC(C(=O)Nc1ncc(SCc2ncc(C(C)(C)C)o2)s1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(C(=O)Nc1ncc(SCc2ncc(C(C)(C)C)o2)s1)c1ccc(F)cc1\"\n}"
+    },
+    {
+        "id": "0667f605-9234-4b76-939c-c9fef2a38d71",
+        "src_smiles": "CC(C)n1cnc2c(NCc3ccccc3)nc(I)nc21",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(C)n1cnc2c(NCc3ccc(F)cc3)nc(I)nc21\"\n}"
+    },
+    {
+        "id": "818ce3d5-7c63-4edb-ba87-35cbe58cc9b2",
+        "src_smiles": "COCCSc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COCCSc1n[nH]c2cc(NC(=O)NC(C)c3ccc(F)cc3)ncc12\"\n}"
+    },
+    {
+        "id": "9fffa190-6141-4ca4-939c-cd05a9f49a78",
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(OCC3CCOCC3)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(NC(=O)Nc1cc2[nH]nc(OCC3CCOCC3)c2cn1)c1ccc(F)cc1\"\n}"
+    },
+    {
+        "id": "e6a8d0e0-6c6b-4441-8031-ec7843528d4c",
+        "src_smiles": "CC(=O)c1ccc(-c2cccc(COC3COc4nc([N+](=O)[O-])cn4C3)c2)cc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(=O)c1ccc(-c2cccc(COC3COc4nc([N+](=O)[O-])cn4C3)c2)cc1\"\n}"
+    },
+    {
+        "id": "8e3c24da-b982-425b-a091-3f9391d6f4ea",
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(CNCC(F)(F)F)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(NC(=O)Nc1cc2[nH]nc(CNCC(F)(F)F)c2cn1)c1ccc(F)cc1\"\n}"
+    },
+    {
+        "id": "25820ed1-8008-4343-b583-de248e49cb06",
+        "src_smiles": "Cc1ccccc1-c1ccc(CC2NC(=O)c3cc(Cl)ccc3N(C)C2=O)cc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"Cc1ccccc1-c1ccc(CC2NC(=O)c3cc(Cl)ccc3N(C)C2=O)cc1\"\n}"
+    },
+    {
+        "id": "ea65165a-83d3-4b95-85d8-f13f62e84c82",
+        "src_smiles": "COCC(O)CNC(=O)c1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COCC(O)CNC(=O)c1n[nH]c2cc(NC(=O)NC(C)c3ccc(F)cc3)ncc12\"\n}"
+    },
+    {
+        "id": "a6c5b522-57ac-469b-9b6e-1a4a6589b6cc",
+        "src_smiles": "CNc1ncnc(-c2cccnc2Oc2cc(C(=O)Nc3cccc(C(F)(F)F)c3)ccc2C)n1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CNc1ncnc(-c2cccnc2Oc2cc(C(=O)Nc3cccc(C(F)(F)F)c3)ccc2C)n1\"\n}"
+    },
+    {
+        "id": "e072a8ec-2c6d-4deb-b3ce-9d53675dda18",
+        "src_smiles": "CCOC(=O)C1(C(=O)NC(Cc2ccc(-c3ccccc3OC)cc2)C(=O)O)CCCO1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CCOC(=O)C1(C(=O)NC(Cc2ccc(-c3ccccc3OC)cc2)C(=O)O)CCCO1\"\n}"
+    },
+    {
+        "id": "70165dd6-e3ab-432e-bf6b-512dcb887bdb",
+        "src_smiles": "CC(C)CC(NC(c1ccc(-c2ccc(C#N)cc2)cc1)C(F)(F)F)C(=O)NCC#N",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(C)CC(NC(c1ccc(-c2ccc(C#N)cc2)cc1)C(F)(F)F)C(=O)NCC#N\"\n}"
+    },
+    {
+        "id": "2043cff1-ebd6-483b-b8ba-360f0da5c974",
+        "src_smiles": "Cc1c(F)ccc(C(=O)Nc2cc(C(=O)O)ccc2N2CCN(C)CC2)c1Cl",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"Cc1c(F)ccc(C(=O)Nc2cc(C(=O)O)ccc2N2CCN(C)CC2)c1Cl\"\n}"
+    },
+    {
+        "id": "07861602-7094-4008-8175-5d56512bd8fc",
+        "src_smiles": "CN1CCN(CCCNc2ncc3cc(-c4c(Cl)cccc4Cl)c(=O)n(C)c3n2)CC1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CN1CCN(CCCNc2ncc3cc(-c4c(Cl)cccc4Cl)c(=O)n(C)c3n2)CC1\"\n}"
+    },
+    {
+        "id": "8f28fb15-0eb4-4246-9122-4d3df009cd4c",
+        "src_smiles": "COc1cccc(Cl)c1-c1ccc(COC2COc3nc([N+](=O)[O-])cn3C2)cc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1cccc(Cl)c1-c1ccc(COC2COc3nc([N+](=O)[O-])cn3C2)cc1\"\n}"
+    },
+    {
+        "id": "7976e8d6-356d-45c4-8354-14b6b3ca36fe",
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(C(=O)N3CC(=O)N(C)C3)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(NC(=O)Nc1cc2[nH]nc(C(=O)N3CC(=O)N(C)C3)c2cn1)c1ccccc1\"\n}"
+    },
+    {
+        "id": "17dbd6a5-231a-4d09-930b-381bb456ba47",
+        "src_smiles": "COc1ccc(NC(=O)Cc2c(C)n(C(=O)c3ccc(Cl)cc3)c3ccc(OC)cc23)cc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1ccc(NC(=O)Cc2c(C)n(C(=O)c3ccc(Cl)cc3)c3ccc(OC)cc23)cc1\"\n}"
+    },
+    {
+        "id": "49633e97-2340-49fe-a6d2-cb3991e6912c",
+        "src_smiles": "COc1ccccc1N(C)c1cc[nH]c(=O)c1C(=O)Nc1ccc(N2CCN(C)CC2)cc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1ccccc1N(C)c1cc[nH]c(=O)c1C(=O)Nc1ccc(N2CCN(C)CC2)cc1\"\n}"
+    },
+    {
+        "id": "1d9b61c4-d24a-4581-a12c-ca03eb784b49",
+        "src_smiles": "O=C(NC(Cc1ccc(O)cc1)C(=O)NCC1CC(Br)=NO1)OCc1ccccc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \n        \"O=C(NC(Cc1ccc(O)cc1)C(=O)NCC1CC(NO)=NO1)OCc1ccccc1\"\n    \n}"
+    },
+    {
+        "id": "8b6ba3cb-8224-45d4-a9bd-449c01ca8f16",
+        "src_smiles": "Cc1cc(C(N)=O)ccc1-n1c(CCC(=O)O)ccc1-c1ccc(-c2cnn(C)c2)cc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"Cc1cc(C(N)=O)ccc1-n1c(CC(=O)O)ccc1-c1ccc(-c2cnn(C)c2)cc1\"\n}"
+    },
+    {
+        "id": "eb87dc2b-8964-499f-ae72-129b58fd4edc",
+        "src_smiles": "CN1C(=O)C(Cc2ccc(-c3ccccc3[N+](=O)[O-])cc2)NC(=O)c2cc(Cl)ccc21",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CN1C(=O)C(Cc2ccc(-c3ccccc3[N+](=O)[O-])cc2)NC(=O)c2cc(F)ccc21\"\n}"
+    },
+    {
+        "id": "fc26c0aa-7da0-4d79-a4c3-3ee113a03c47",
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(C(=O)NCC(O)C(F)F)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(NC(=O)Nc1cc2[nH]nc(C(=O)NCC(O)C(F)F)c2cn1)c1ccc(F)cc1\"\n}"
+    },
+    {
+        "id": "0ad6e783-a750-4ed8-b15c-7ce47aa78a51",
+        "src_smiles": "CCCCCCNc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CCCNc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1\"\n}"
+    },
+    {
+        "id": "c0e3d5b2-df09-425f-8b5d-884110fc9866",
+        "src_smiles": "CCOCn1oc(=O)c(-c2ccc(F)cc2)c1-c1ccnc(Oc2ccccc2O)n1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CCOCn1oc(=O)c(-c2ccc(F)cc2)c1-c1ccnc(Oc2ccccc2O)n1\"\n}"
+    },
+    {
+        "id": "dc1f53ae-febb-411b-8086-fe7fbdbd76e6",
+        "src_smiles": "COc1cc(Cc2cnc(N)nc2N)ccc1OCc1ccc(-c2csnn2)cc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COc1cc(Cc2cnc(N)nc2N)ccc1OCc1ccc(-c2scnc2)cc1\"\n}"
+    },
+    {
+        "id": "a63ded68-2acc-4244-a568-68dc4019d7cb",
+        "src_smiles": "COCCn1c(=O)c(-c2ccc(OC)cc2)nc2cnc(OCc3ccccc3)nc21",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"COCCn1c(=O)c(-c2ccc(OC)cc2)nc2cnc(OCc3cccc4ccccc34)nc21\"\n}"
+    },
+    {
+        "id": "1f143a7e-a0f2-44da-ac84-ed52c9fe5b8d",
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(OCCOC(F)(F)F)c2cn1)c1ccc(F)cc1",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"CC(NC(=O)Nc1cc2[nH]nc(OCCOC(F)(F)F)c2cn1)c1ccc(F)cc1\"\n}"
+    },
+    {
+        "id": "5110f285-b6c6-42c1-ae84-51395bb99836",
+        "src_smiles": "Cn1c(=O)c(-c2c(Cl)cccc2Cl)cc2cnc(NCCCN3CCOCC3)nc21",
+        "prop": "gsk",
+        "json_results": "{\n    \"Final Target Molecule\": \"Cn1c(=O)c(-c2c(Cl)cccc2Cl)cc2cnc(NCCCN3CCOCC3)nc21\"\n}"
+    }
+]
