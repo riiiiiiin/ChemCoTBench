@@ -187,23 +187,10 @@ def mol_prop(mol, prop):
         raise ValueError(f'Property {prop} not supported')
 
 def is_valid_smiles(smiles):
-    '''
-    Chem.MolFromSmiles documentation (version 2025.9.3):
-    
-    RETURNS:
-        
-            a Mol object, None on failure.
-        
-           The optional replacements dict can be used to do string substitution of abbreviations 
-           in the input SMILES. The set of substitutions is repeatedly looped through until 
-           the string no longer changes. It is the responsibility of the caller to make sure 
-           that substitutions results in legal and sensible SMILES. 
-    '''
     try:
         return Chem.MolFromSmiles(smiles) is not None
     except:
         return False
-
 
 GROUP_SET={
     "benzene",
@@ -269,7 +256,8 @@ def check_edit_add_valid(src, tgt, group)->bool:
     try:
         assert is_valid_smiles(tgt), f"无效的目标分子SMILES: {tgt}"
     except Exception as e:
-        raise e
+        print(e)
+        return False
     if mol_prop(tgt, "num_"+group) == mol_prop(src, "num_"+group) + 1:
         return True
     else:
@@ -282,7 +270,8 @@ def check_edit_del_valid(src, tgt, group)->bool:
     try:
         assert is_valid_smiles(tgt), f"无效的目标分子SMILES: {tgt}"
     except Exception as e:
-        raise e
+        print(e)
+        return False
     return mol_prop(tgt, "num_"+group) == mol_prop(src, "num_"+group) - 1
 
 def check_edit_sub_valid(src, tgt, remove_group, add_group)->bool:
@@ -292,7 +281,8 @@ def check_edit_sub_valid(src, tgt, remove_group, add_group)->bool:
     try:
         assert is_valid_smiles(tgt), f"无效的目标分子SMILES: {tgt}"
     except Exception as e:
-        raise e
+        print(e)
+        return False
     return mol_prop(tgt, "num_"+remove_group) == mol_prop(src, "num_"+remove_group) - 1 and mol_prop(tgt, "num_"+add_group) == mol_prop(src, "num_"+add_group) + 1
 
 def calculate_molecular_similarity(mol1, mol2, fingerprint_type='Morgan', 
@@ -386,25 +376,20 @@ def eval_moledit_from_list(src_list, pred_list, group_a, group_b, task, total_nu
     #   total_number: len(gt_molecules)+len(cases that cannot extract SMILES)
     
     correct_num = 0
-    valid_num = 0
     for i in range(len(src_list)):
-        try:
-            if task in ['add']:
-                if check_edit_add_valid(src=src_list[i], tgt=pred_list[i], group=group_a[i]):
-                    correct_num += 1
-            if task in ['delete']:
-                if check_edit_del_valid(src=src_list[i], tgt=pred_list[i], group=group_a[i]):
-                    correct_num += 1
-            if task == 'sub':
-                if check_edit_sub_valid(src=src_list[i], tgt=pred_list[i], remove_group=group_b[i], add_group=group_a[i]):
-                    correct_num += 1
-            valid_num += 1
-        except Exception as e:
-            print(e)
+        if task in ['add']:
+            if check_edit_add_valid(src=src_list[i], tgt=pred_list[i], group=group_a[i]):
+                correct_num += 1
+        if task in ['delete']:
+            if check_edit_del_valid(src=src_list[i], tgt=pred_list[i], group=group_a[i]):
+                correct_num += 1
+        if task == 'sub':
+            if check_edit_sub_valid(src=src_list[i], tgt=pred_list[i], remove_group=group_b[i], add_group=group_a[i]):
+                correct_num += 1
     
     my_dict = {
         "correct_rate": correct_num / total_number,
-        f"{task}-valid-rate": valid_num / total_number,
+        f"{task}-valid-rate": len(pred_list) / total_number,
     }
     return my_dict
     
