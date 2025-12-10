@@ -1,0 +1,352 @@
+[
+    {
+        "id": "5af6751c-9441-43d9-89e1-1515cb29156a",
+        "task": "permutated_list",
+        "smiles": "CCc1ccc(OC(C)=O)c(C(=O)c2ccc(C)cc2)c1",
+        "permutated": "c1c(ccc(c1)C(=O)c1cc(CC)ccc1OC(C)=O)C",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "e77fa0a0-76ca-40c2-abe3-9ea92502f9b9",
+        "task": "permutated_list",
+        "smiles": "CCC(Oc1ccccc1)C(=O)Nc1nnc(S(=O)(=O)N2CCCC2)s1",
+        "permutated": "O=S(N1CCCC1)(c1sc(nn1)NC(=O)C(CC)Oc1ccccc1)=O",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "f8e8d68b-e962-46ed-9e6b-306e07fd6653",
+        "task": "permutated_list",
+        "smiles": "Nc1ccc(Nc2nc(-c3ccc(Cl)cc3)cs2)cc1",
+        "permutated": "c1(-c2ccc(cc2)Cl)csc(n1)Nc1ccc(cc1)N",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "c6b41bba-e06a-4fca-b84f-31345e8bd18f",
+        "task": "permutated_list",
+        "smiles": "CC1C2Cc3ccc(N)cc3C1(C)CCN2",
+        "permutated": "C1NC2Cc3ccc(cc3C(C)(C2C)C1)N",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "58dd73ef-847b-4321-ae47-f76e01847f87",
+        "task": "permutated_list",
+        "smiles": "Nc1ccc(-c2nnc(NC(=O)Nc3ccc(Cl)c(Cl)c3)s2)cc1",
+        "permutated": "c1(c(Cl)cc(NC(Nc2nnc(s2)-c2ccc(N)cc2)=O)cc1)Cl",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "dab103c7-0d86-4639-832c-522e02cb2033",
+        "task": "permutated_list",
+        "smiles": "Cc1c(NC(=O)c2ccc(S(=O)(=O)Nc3ccccc3F)cc2)c(=O)n(-c2ccccc2)n1C",
+        "permutated": "c1cc(NS(c2ccc(C(=O)Nc3c(n(C)n(c3=O)-c3ccccc3)C)cc2)(=O)=O)c(F)cc1",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "8023376b-d36b-4688-9bcb-ef6426cf9229",
+        "task": "permutated_list",
+        "smiles": "COc1cc2c(cc1OC)CC(N1CCOCC1)C2",
+        "permutated": "COc1c(cc2c(CC(N3CCOCC3)C2)c1)OC",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "628f08cc-f2c0-4837-8cf7-232bdfdabd9e",
+        "task": "permutated_list",
+        "smiles": "Cc1c(F)ccc(C(=O)Nc2cc(C(=O)O)ccc2N2CCN(C)CC2)c1Cl",
+        "permutated": "c1(cc(ccc1N1CCN(C)CC1)C(O)=O)NC(=O)c1ccc(c(c1Cl)C)F",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "65a2eea6-3c18-4850-8d89-f912bc9ffe63",
+        "task": "permutated_list",
+        "smiles": "CCC(CO)Oc1cc(NCc2ccccc2)c2ncn(C(C)C)c2c1",
+        "permutated": "c1c(cc2c(c1NCc1ccccc1)ncn2C(C)C)OC(CC)CO",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "fe338ed8-6419-4057-9246-7f3826f90f55",
+        "task": "permutated_list",
+        "smiles": "CCOC(=O)CC(NC(=O)C1CCCN1)C1OC2OC(C)(C)OC2C1OC",
+        "permutated": "C1(C(NC(C2CCCN2)=O)CC(OCC)=O)OC2OC(OC2C1OC)(C)C",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "080dcc82-3d1c-488c-a238-1060bbc28319",
+        "task": "permutated_list",
+        "smiles": "COc1cc2ncnc(N3CCN(C(=O)Nc4ccccn4)CC3)c2cc1OC",
+        "permutated": "c1(NC(=O)N2CCN(CC2)c2ncnc3c2cc(c(c3)OC)OC)ncccc1",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "a5401eab-cb45-47da-ad50-b437145d9a4a",
+        "task": "permutated_list",
+        "smiles": "CC1CN(c2c(F)c(N)c3c(=O)c(C(=O)O)cn(C4CC4)c3c2F)C(C)CN1",
+        "permutated": "CC1NCC(N(c2c(F)c(N)c3c(=O)c(cn(C4CC4)c3c2F)C(O)=O)C1)C",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "2cd04481-44b4-420f-a6dd-74f00c498a8e",
+        "task": "permutated_list",
+        "smiles": "CC(C(=O)NCc1ccc(C(F)(F)F)nc1OCc1ccc(F)cc1)c1ccc(NS(C)(=O)=O)c(F)c1",
+        "permutated": "c1c(c(NS(=O)(=O)C)ccc1C(C)C(NCc1ccc(C(F)(F)F)nc1OCc1ccc(cc1)F)=O)F",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "977b767f-2c16-412c-8239-9e6fa853389a",
+        "task": "permutated_list",
+        "smiles": "OC(CN1C2CCC1CC(c1ccccc1)C2)c1ccccc1",
+        "permutated": "c1(C(O)CN2C3CCC2CC(C3)c2ccccc2)ccccc1",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "674d1efa-7ea9-46de-b5e1-1c9613a6f297",
+        "task": "permutated_list",
+        "smiles": "O=C(Oc1ccccc1C(=O)Oc1ccccc1)c1cccnc1",
+        "permutated": "n1cc(C(=O)Oc2ccccc2C(=O)Oc2ccccc2)ccc1",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "dd026347-2a53-44b2-95fe-20274efab7cc",
+        "task": "permutated_list",
+        "smiles": "O=S(=O)(NCCCCCO)c1ccc(-c2ccc(O)cc2)cc1",
+        "permutated": "O=S(NCCCCCO)(c1ccc(-c2ccc(cc2)O)cc1)=O",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "a6c68653-ccf1-45da-9121-992a7d4631a4",
+        "task": "permutated_list",
+        "smiles": "O=c1cc(-c2ccccc2Cl)oc2c1ccc1ccccc12",
+        "permutated": "c1(-c2c(Cl)cccc2)cc(=O)c2c(c3c(cc2)cccc3)o1",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "7dccc968-b6e4-454a-aa77-c9eb339e1eed",
+        "task": "permutated_list",
+        "smiles": "NC(=O)OC(CCN1CCN(c2ccc([N+](=O)[O-])cc2)CC1)c1ccccc1",
+        "permutated": "c1ccccc1C(CCN1CCN(c2ccc(cc2)[N+]([O-])=O)CC1)OC(=O)N",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "b35cf36d-87fa-4454-b1d9-2a80864d09c3",
+        "task": "permutated_list",
+        "smiles": "O=C1NC(=O)C(=Cc2ccc(-c3cccc([N+](=O)[O-])c3)o2)S1",
+        "permutated": "C1(SC(NC1=O)=O)=Cc1oc(-c2cccc([N+]([O-])=O)c2)cc1",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "86b8d996-270e-4c0f-9f52-0035e995c333",
+        "task": "permutated_list",
+        "smiles": "CN(C)CCCn1c(N)c(-c2nc3ccccc3s2)c2nc(C#N)c(C#N)nc21",
+        "permutated": "c1cccc2c1nc(s2)-c1c(N)n(CCCN(C)C)c2c1nc(C#N)c(n2)C#N",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "6fd5e099-636c-4a35-8b1c-5085a4c69922",
+        "task": "permutated_list",
+        "smiles": "COc1cc(N)c(Cl)cc1C(=O)OCCN1CCC(C(N)=O)CC1",
+        "permutated": "O=C(OCCN1CCC(C(=O)N)CC1)c1c(OC)cc(c(c1)Cl)N",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "0beef73e-35cf-41ec-b1db-52afb618fc6a",
+        "task": "permutated_list",
+        "smiles": "CSc1c(CC(=O)Nc2ccc(F)cc2)n(Cc2ccccc2)c2ccccc12",
+        "permutated": "c1(c(c2c(cccc2)n1Cc1ccccc1)SC)CC(Nc1ccc(F)cc1)=O",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "8098e202-6a95-47d7-8a42-aa1c823718db",
+        "task": "permutated_list",
+        "smiles": "COc1cccc(C(=O)OCC(C)C2CCC3C(O)CCCC23C)c1",
+        "permutated": "C1(C(COC(c2cc(ccc2)OC)=O)C)C2(C)CCCC(O)C2CC1",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "bde0fd42-c876-4245-b99b-81dc5fe0216a",
+        "task": "permutated_list",
+        "smiles": "COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OCc1ccc(C)cc1",
+        "permutated": "c1(c(cc(cc1OC)Cc1c(N)nc(nc1)N)OC)OCc1ccc(cc1)C",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "fcfed604-916f-4c98-a112-4516d8ca27be",
+        "task": "permutated_list",
+        "smiles": "Nc1ccnc(Nc2ccc(Oc3ccc(Cl)cc3)cc2)c1",
+        "permutated": "c1nc(cc(c1)N)Nc1ccc(Oc2ccc(Cl)cc2)cc1",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "6a30ad4c-e995-4f1c-8051-baf0101b70fe",
+        "task": "permutated_list",
+        "smiles": "CSc1nc2ccc3nc(NC(=O)c4ccco4)sc3c2s1",
+        "permutated": "n1c2c(sc1SC)c1c(cc2)nc(s1)NC(=O)c1ccco1",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "a5a7ff2d-4d28-491c-9078-bb4ae73cfacf",
+        "task": "permutated_list",
+        "smiles": "COc1cc2ncnc(N(C)c3ccc(F)c(Cl)c3)c2cc1OC",
+        "permutated": "Clc1c(F)ccc(c1)N(c1ncnc2cc(OC)c(cc12)OC)C",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "686492c0-912d-48ff-a587-f7401cb08872",
+        "task": "permutated_list",
+        "smiles": "CC(Nc1cccc(CN2CCOC2=O)c1)C(=O)NC(N)=O",
+        "permutated": "O=C(N)NC(C(C)Nc1cc(ccc1)CN1CCOC1=O)=O",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "5ce3bf46-ce00-4af1-94cf-9fc166766a9f",
+        "task": "permutated_list",
+        "smiles": "O=C(CSc1cccc[n+]1[O-])Nc1ccccc1Oc1ccccc1",
+        "permutated": "c1ccc[n+](c1SCC(Nc1c(cccc1)Oc1ccccc1)=O)[O-]",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "f48243e0-21f1-48ab-a41e-d418d80bffb0",
+        "task": "permutated_list",
+        "smiles": "O=C(NCCCN1CCOCC1)c1ccc2c(=O)n(Cc3ccc(Cl)cc3)c(=O)[nH]c2c1",
+        "permutated": "c1c(C(=O)NCCCN2CCOCC2)ccc2c(=O)n(c(=O)[nH]c21)Cc1ccc(Cl)cc1",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "794029a0-18a1-4f9d-b973-b6427db1d633",
+        "task": "permutated_list",
+        "smiles": "Fc1ccc(-c2nc3cc[nH]cc-3n2)cc1",
+        "permutated": "c1[nH]ccc2-c1nc(n2)-c1ccc(cc1)F",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "02c31dfc-37b8-4366-9765-bc2201d1895e",
+        "task": "permutated_list",
+        "smiles": "COC(=O)CSc1nc(-c2ccc(F)cc2)c(-c2ccncc2)[nH]1",
+        "permutated": "c1(-c2ccncc2)c(nc([nH]1)SCC(OC)=O)-c1ccc(cc1)F",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "ea3fd442-cc10-48c4-9be1-bfcee87f6b3a",
+        "task": "permutated_list",
+        "smiles": "Cc1oc(=O)oc1COC(=O)C(C)(C)Oc1ccc(C(=O)c2ccc(Cl)cc2)cc1",
+        "permutated": "c1c(ccc(c1)Cl)C(=O)c1ccc(OC(C(OCc2c(C)oc(o2)=O)=O)(C)C)cc1",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "a06e757f-93e3-4f95-9abb-f88256ec97ed",
+        "task": "permutated_list",
+        "smiles": "COc1cc2ncnc(NC(C)C)c2cc1OC",
+        "permutated": "c12cc(OC)c(OC)cc2c(NC(C)C)ncn1",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "6bf66a6d-6514-4335-a1af-ae130206723c",
+        "task": "permutated_list",
+        "smiles": "O=C(C=Cc1ccco1)NC(Cc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)O",
+        "permutated": "C(NC(Cc1ccccc1)C(=O)O)(=O)C(Cc1ccccc1)NC(=O)C=Cc1occc1",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "05f86a80-1bea-423e-97e5-c3e89e695bea",
+        "task": "permutated_list",
+        "smiles": "CCCCCSc1nc(O)c2cnn(-c3ccc(F)cc3)c2n1",
+        "permutated": "Oc1nc(nc2n(ncc12)-c1ccc(cc1)F)SCCCCC",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "104b93ba-5cbc-45a6-b09b-a8b2c9d68a74",
+        "task": "permutated_list",
+        "smiles": "COc1ccc(CC2NCCc3c2[nH]c2ccc(SC)cc32)cc1OC",
+        "permutated": "c1c(OC)c(OC)ccc1CC1NCCc2c3c([nH]c21)ccc(SC)c3",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "b70a8495-4cd8-4594-81e8-3d4ed090c90d",
+        "task": "permutated_list",
+        "smiles": "COc1cc2c(cc1OC)-c1cc(Nc3c(Cl)cccc3Cl)nc(=O)n1CC2",
+        "permutated": "c1(cccc(c1Nc1nc(n2c(-c3cc(OC)c(cc3CC2)OC)c1)=O)Cl)Cl",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "fc2a02da-fe59-4114-8cc8-898e3acbb109",
+        "task": "permutated_list",
+        "smiles": "CN(CCCNc1ccnc2cc(Cl)ccc12)C(=O)c1ccccc1",
+        "permutated": "C(N(C(c1ccccc1)=O)C)CCNc1ccnc2cc(ccc12)Cl",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "b21cbaf8-0d2f-4f5d-b853-5d2b561940f7",
+        "task": "permutated_list",
+        "smiles": "CCOC(=O)CN1C(=O)SC(=Cc2ccc(-c3ccc(Cl)cc3Cl)o2)C1=O",
+        "permutated": "Clc1cc(ccc1-c1oc(C=C2SC(N(C2=O)CC(OCC)=O)=O)cc1)Cl",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "70e09e79-3b05-45b9-8cb1-6ac5707289f1",
+        "task": "permutated_list",
+        "smiles": "CC(NC(=O)C1CCN(Cc2cccc(NC(=O)c3ccc(Cl)cc3)c2)CC1)C1CCCCC1",
+        "permutated": "C1CCCC(C1)C(C)NC(C1CCN(Cc2cc(ccc2)NC(c2ccc(Cl)cc2)=O)CC1)=O",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "d081788e-05c2-4cc4-a7e2-4dfe05e9ddc0",
+        "task": "permutated_list",
+        "smiles": "O=C(NC(Cc1ccccc1)c1nc2ccccc2[nH]1)c1cccc([N+](=O)[O-])c1",
+        "permutated": "C(C(c1nc2c([nH]1)cccc2)NC(=O)c1cc(ccc1)[N+]([O-])=O)c1ccccc1",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "7946d17b-14a7-409e-9c67-d9810d55ce46",
+        "task": "permutated_list",
+        "smiles": "CSc1nc(-c2ccc(F)cc2)c(-c2ccnc(OC(C)C)c2)[nH]1",
+        "permutated": "n1ccc(-c2[nH]c(SC)nc2-c2ccc(cc2)F)cc1OC(C)C",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "9d776288-744e-4bce-9247-f8a80b7ba4d1",
+        "task": "permutated_list",
+        "smiles": "CCn1ncc(C2=NOC(C(=O)Nc3cccc(C(C)=O)c3)C2)c1C",
+        "permutated": "O1C(C(=O)Nc2cc(C(=O)C)ccc2)CC(c2c(n(CC)nc2)C)=N1",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "b94c29a7-092c-4f46-95a5-b600a3ebd258",
+        "task": "permutated_list",
+        "smiles": "CNCc1cc(C(=O)N2CCCN(C3CC3)CC2)ccc1Oc1ccccc1C#N",
+        "permutated": "N1(C(=O)c2cc(c(Oc3c(cccc3)C#N)cc2)CNC)CCCN(C2CC2)CC1",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "03932038-4a88-4910-84ee-363e01b923cf",
+        "task": "permutated_list",
+        "smiles": "COc1ccc(S(=O)(=O)N2CCC3(CC2)CC(=O)c2ccccc2O3)cc1OC",
+        "permutated": "C1(c2ccccc2OC2(C1)CCN(S(=O)(c1ccc(OC)c(c1)OC)=O)CC2)=O",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "d2f5e96e-6c3c-42e2-9be7-6b101d7edab3",
+        "task": "permutated_list",
+        "smiles": "Cc1cc(C)cc(NC(=O)Nc2ccc(NS(N)(=O)=O)cc2)c1",
+        "permutated": "O=C(Nc1ccc(cc1)NS(N)(=O)=O)Nc1cc(C)cc(c1)C",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "3145227c-7f72-40b3-b391-961931d4f85c",
+        "task": "permutated_list",
+        "smiles": "Nc1cccc(-n2nncc2-c2ccccc2)c1",
+        "permutated": "c1ccccc1-c1cnnn1-c1cc(N)ccc1",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    },
+    {
+        "id": "80b20311-7199-401e-aa42-1a03ca18ba39",
+        "task": "permutated_list",
+        "smiles": "CN1C(=O)C(Cc2ccc(-c3ccccc3[N+](=O)[O-])cc2)NC(=O)c2cc(Cl)ccc21",
+        "permutated": "c1(c(cccc1)-c1ccc(CC2NC(c3cc(Cl)ccc3N(C2=O)C)=O)cc1)[N+]([O-])=O",
+        "json_results": "{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "id": "c0d0675e-455f-49d3-befc-e159146a84b1",
+        "task": "permutated_list",
+        "smiles": "COc1cc(C=C(C#N)c2ccccn2)ccc1OCc1ccccc1Cl",
+        "permutated": "c1ccc(Cl)c(COc2c(cc(cc2)C=C(c2ccccn2)C#N)OC)c1",
+        "json_results": "{\n    \"output\": \"Yes\"\n}"
+    }
+]
