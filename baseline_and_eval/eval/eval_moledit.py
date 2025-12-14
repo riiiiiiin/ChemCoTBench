@@ -350,23 +350,6 @@ def calculate_molecular_similarity(mol1, mol2, fingerprint_type='Morgan',
         else:
             raise ValueError(f"对于{fingerprint_type}指纹，只支持Tanimoto相似度")
 
-def tranform_str_to_json(str_input):
-    ## 假如LLM输出的是类似json的字符串, 我需要设定一个逻辑, 把字符串重新转换成json
-    ## o1-mini的感觉, 是要移除字符串里面的\n，并且把所有的\"都改成 "
-    if "</think>\n\n" in str_input:
-        str_input = str_input.split("</think>\n\n")[-1]
-        
-    if "```json\n" in str_input:
-        str_input = str_input.split("```json\n")[1]
-        str_input = str_input.replace("\n```", '')
-    
-    unescaped_str = str_input.replace('\n    ', '').replace('\n', '').replace('\"', '"')
-    try:
-        json_obj = json.loads(unescaped_str)
-        return json_obj
-    except json.JSONDecodeError as e:
-        return None
-
 def eval_moledit_from_list(src_list, pred_list, group_a, group_b, task, total_number):
     # this_function input: 
     #   src_list for source_molecules

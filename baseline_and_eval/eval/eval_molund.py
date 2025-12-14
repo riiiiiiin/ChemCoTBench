@@ -13,23 +13,6 @@ def check_string_type(s):
         except ValueError:
             return "string"
 
-def tranform_str_to_json(str_input):
-    ## 假如LLM输出的是类似json的字符串, 我需要设定一个逻辑, 把字符串重新转换成json
-    ## o1-mini的感觉, 是要移除字符串里面的\n，并且把所有的\"都改成 "
-    if "</think>\n\n" in str_input:
-        str_input = str_input.split("</think>\n\n")[-1]
-    
-    if "```json\n" in str_input:
-        str_input = str_input.split("```json\n")[1]
-        str_input = str_input.replace("\n```", '')
-    
-    unescaped_str = str_input.replace('\n    ', '').replace('\n', '').replace('\"', '"')
-    try:
-        json_obj = json.loads(unescaped_str)
-        return json_obj
-    except json.JSONDecodeError as e:
-        return None
-
 def eval_molund_from_list(gt_list, pred_list, total_number, task):
     # this_function input: 
     #   gt_list for gt_molecules
@@ -50,6 +33,7 @@ def eval_molund_from_list(gt_list, pred_list, total_number, task):
             if str(pred_list[i]).lower() == str(gt_list[i]).lower():
                 count += 1
         if len(pred_list) == 0: score = None
+        else: score = count / len(pred_list)
     elif task in ["ring_count", "fg_samples", "fg_count"]:
         assert len(gt_list) == len(pred_list)
         if len(gt_list) == 0: score = None
