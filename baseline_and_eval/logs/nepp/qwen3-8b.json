@@ -1,0 +1,512 @@
+[
+    {
+        "id": "0f23e9da-03d7-415f-bace-1c02847e137d",
+        "gt": "CCN=C=[NH+]CCCN(C)C.O=C([O-])c1ccc(Oc2ccc(OCc3ccccc3)cc2)cc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CC[NH+]=C=NCCCN(C)C.O=C([O-])c1ccc(Oc2ccc(OCc3ccccc3)cc2)cc1\"\n}"
+    },
+    {
+        "id": "60999405-bd39-447b-97d2-c5fda0cf17e5",
+        "gt": "O=C=O.CCOC(=O)C(C)=C[C@@H](C(C)C)N(C)C(=O)[C@@H](NC(=O)[C@@H](NC)C(C)(C)c1ccccc1)C(C)(C)c1ccc(OC)cc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CCOC(=O)C(C)=C[C@@H](C(C)C)N(C)C(=O)[C@@H](NC(=O)[C@@H]([N-]C)C(C)(C)c1ccccc1)C(C)(C)c1ccc(O)cc1\"\n}"
+    },
+    {
+        "id": "a2d4e7bd-1105-43c5-b9fe-4ec79dcadc78",
+        "gt": "C[O-].CC1(CNC(=O)c2cc(-c3ccccc3C(=O)O)ccc2Cl)CCCCCC1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"c1ccccc1-c1ccc(Cl)c(C(=O)NCC2(C)CCCCCC2)c1\"\n}"
+    },
+    {
+        "id": "e1cf65f0-b1a8-40ec-920b-37ecc90aceb3",
+        "gt": "CC[O-].Cc1c(-c2ccc(N3CCc4cccc(C(=O)Nc5nc6ccccc6s5)c4C3)nc2C(=O)O)c(C(=O)O)nn1Cc1ccccc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CCOC(=O)c1nn(Cc2ccccc2)c(C)c1-c1ccc(N2CCc3cccc(C(=O)Nc4nc5ccccc5s4)c3C2)nc1C(=O)O\"\n}"
+    },
+    {
+        "id": "d7c9b042-ac2d-4252-91d3-97dbd83a6db2",
+        "gt": "CC(C)(C)[O-].CC(C)(C)Oc1ccc(CCC(=O)O)cc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CC(C)(C)Oc1ccc(CC([O-])(O)OC(C)(C)C)cc1\"\n}"
+    },
+    {
+        "id": "bddae9ad-ab18-4ab8-af1c-0ef742f9f9e6",
+        "gt": "CC(C)(O)[C@H](NC(=O)C(Cl)(Cl)Cl)c1ccccc1.c1cc[nH+]cc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CC(C)(O)[C@H]([NH2+]C(=O)C(Cl)(Cl)Cl)c1ccccc1.c1ccncc1\"\n}"
+    },
+    {
+        "id": "5c1686b5-0cd3-49f4-9bb9-8c83dff4b5c1",
+        "gt": "CC[NH+](C(C)C)C(C)C.CC(=O)Nc1nc(C)c(-c2ccc(S(=O)(=O)NCCO)s2)s1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CCN(C(C)C)C(C)C.CC(=O)Nc1nc(C)c(-c2ccc(S(=O)(=O)[NH2+]CCO)s2)s1\"\n}"
+    },
+    {
+        "id": "6c711f6e-ce45-4562-97b6-e7fba9304931",
+        "gt": "COCCOS(=O)(=O)c1ccc(C)cc1.c1cc[nH+]cc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"COCCS(=O)(=O)c1ccc(C)cc1.c1ccncc1\"\n}"
+    },
+    {
+        "id": "843079da-9d8b-4ba5-be44-59bcd571a235",
+        "gt": "c1cc[nH+]cc1.CCOC(=O)N1CCc2ccccc2CC1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CCOC(=O)[NH+]1CCc2ccccc2CC1.c1ccncc1\"\n}"
+    },
+    {
+        "id": "9bf256c4-2ac1-49bb-9d11-1ed928516992",
+        "gt": "CN(CCOC(=O)Cl)C(=O)OC(C)(C)C.c1cc[nH+]cc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CN(CC[O-]C(=O)Cl)C(=O)OC(C)(C)C.c1ccncc1\"\n}"
+    },
+    {
+        "id": "9072750a-5040-4373-a0c1-471fa011053b",
+        "gt": "[OH3+].CCCOCc1cc2cc(Br)ccc2o1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"Br-CCC[O-]Cc1cc2cc(Br)ccc2o1\"\n}"
+    },
+    {
+        "id": "119fb611-6dbe-4c8b-919e-ae0f409b1d9f",
+        "gt": "CC(C)(C)O.COC(=O)CCCCCN1C(=O)c2cccnc2N(C2CC2)c2nccc(C)c21.[K+]",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CC(C)(C)O[K].COC(=O)CCCCC[NH+]1C(=O)c2cccnc2N(C2CC2)c2nccc(C)c21\"\n}"
+    },
+    {
+        "id": "4fbe2fc6-f6bd-4912-80c4-24f6d320e835",
+        "gt": "[Cs+].O=C(O)O[Cs].CCOC(=O)c1cnn(Cc2cn3cc(C4CC4)c(F)cc3n2)c1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CCOC(=O)C1=C[NH+](Cc2cn3cc(C4CC4)c(F)cc3n2)N=C1.CCl\"\n}"
+    },
+    {
+        "id": "c17037f7-41b6-49e0-8676-62872fc3dcfd",
+        "gt": "Cc1ccc2c(c1)C1C=CC2N1C(C)C.O=C(O)O[K].[K+]",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"O=C(O[K])O[K].Cc1ccc2c(c1)C1C=CC2[NH+]1C(C)C\"\n}"
+    },
+    {
+        "id": "cb9e5d5e-2273-4977-9d60-1a8e253b6f02",
+        "gt": "O=C(O)O[Pd](c1ccc(C2CCCCCC2)cc1)([PH](c1ccccc1)(c1ccccc1)c1ccccc1)[PH](c1ccccc1)(c1ccccc1)c1ccccc1.O[B-](O)(O)c1cccc(F)c1.[K+]",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"O[B-](O)([OH2+])c1cccc(F)c1.O=C(O[K])O[Pd](c1ccc(C2CCCCCC2)cc1)([PH](c1ccccc1)(c1ccccc1)c1ccccc1)[PH](c1ccccc1)(c1ccccc1)c1ccccc1\"\n}"
+    },
+    {
+        "id": "b5ac7b50-c54e-4799-a3da-578d5d4674c8",
+        "gt": "O[B-](O)([OH2+])c1ccc2cc(-c3ccccc3)ccc2c1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"OB(O)c1ccc2cc(-c3ccccc3)ccc2c1\"\n}"
+    },
+    {
+        "id": "b5073b85-cd62-44d0-be1c-125dbe2996de",
+        "gt": "c1ccc([PH]([Pd][PH](c2ccccc2)(c2ccccc2)c2ccccc2)(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"c1ccc([PH](c2ccccc2)(c2ccccc2)[Pd]([PH](c2ccccc2)(c2ccccc2)c2ccccc2)[PH](c2ccccc2)(c2ccccc2)c2ccccc2)cc1\"\n}"
+    },
+    {
+        "id": "c268145d-ed5b-4944-9ba6-1aca6b651516",
+        "gt": "[F-].O=C(O)c1cn(C2CCCC2)c2cc(NC3CCCCC3)c(F)c(OCc3ccccc3)c2c1=O",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"O=C(O)c1cn(C2CCCC2)c2c(c1=O)C(F)(OCc1ccccc1)C(NC1CCCCC1)=C2\"\n}"
+    },
+    {
+        "id": "a821e8e3-b27c-4ba8-a5e3-8124d3b47eb9",
+        "gt": "O.CC(C)(C)OC(=O)N(CCCc1ccccn1)Cc1cccc(CC=[NH+]CC(O)c2ccc(O)c3[nH]c(=O)sc23)c1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CC(C)(C)OC(=O)N(CCCc1ccccn1)Cc1cccc(CC([OH2+])NCC(O)c2ccc(O)c3[nH]c(=O)sc23)c1\"\n}"
+    },
+    {
+        "id": "341d221a-8caa-492e-893f-5998c3f4bc58",
+        "gt": "O=C1CCC(=O)[N-]1.NC1=C[C+](F)C(Br)C(C(F)(F)F)=C1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"O=C1CCC(=O)N1Br.Nc1cc(F)c(Br)c(C(F)(F)F)c1\"\n}"
+    },
+    {
+        "id": "5c892bc6-815c-4fa6-8394-ba69fdccbc59",
+        "gt": "CC(C)(C)O.CC(C)(C)OC(=O)NCc1nnc(C2CCN(c3ccccn3)CC2)o1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CC(C)(C)[O-].CC(C)(C)OC(=O)NH2Cc1nnc(C2CCN(c3ccccn3)CC2)o1\"\n}"
+    },
+    {
+        "id": "6741980e-e9a6-425b-bd02-a1adce01c020",
+        "gt": "CC[O-].O=C1NCC(CO)n2nc(-c3cccc(F)c3)cc21",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CCOC1([O-])NCC(CO)n2nc(-c3cccc(F)c3)cc21.O\"\n}"
+    },
+    {
+        "id": "7b56b371-0b15-47a3-a151-800b6e3541e7",
+        "gt": "CC(C)(C)OC(=O)NCCCC[C@H](NC(=O)OC(C)(C)C)C(N)=O.[OH-]",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CC(C)(C)OC(=O)NCCCC[C@H](NC(=O)OC(C)(C)C)C(N)O\"\n}"
+    },
+    {
+        "id": "1b3df03e-1eb2-43ab-a8b8-c4eeda6dd1f0",
+        "gt": "[Cl-].CC1(C)[C@H](C(=O)OCOC(=O)[C@H]2CC[C@H](C(=O)OCc3ccccc3)CC2)N2C(=O)C[C@H]2S1(=O)=O",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CC1(C)[C@H](C(=O)OCc2ccccc2)N2C(=O)C[C@H]2S1(=O)=O.CCl.O=C(OCCl)[C@H]1CC[C@H](C(=O)OCc2ccccc2)CC1\"\n}"
+    },
+    {
+        "id": "1b845bb2-3ca8-42c8-9eeb-98fc3e39eb06",
+        "gt": "CBr.COc1cc(F)cc(N2CCc3cc(O)ncc3C2C)c1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"COc1cc(F)cc(N2CCc3cc(O)ncc3C2C)c1\"\n}"
+    },
+    {
+        "id": "70dea0fd-6b94-4c07-abea-cff1028f5dc6",
+        "gt": "[BH3-][O+]=C(CCn1c(C(=O)OC)c(C)c2c(-c3c(CN(C)Cc4cc(CSc5cc(O)c6ccccc6c5)n(C)n4)nn4c3CCCC4)c(Cl)ccc21)[O+]([BH3-])C",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"B[O+]1[BH2-][O+]([BH3-])C1CCn1c(C(=O)OC)c(C)c2c(-c3c(CN(C)Cc4cc(CSc5cc(O)c6ccccc6c5)n(C)n4)nn4c3CCCC4)c(Cl)ccc21\"\n}"
+    },
+    {
+        "id": "78d570cb-8488-40ca-ae87-93f8ad0ee49c",
+        "gt": "[Br-].[Cs+].CC1(C)c2ccccc2Oc2ccc3c(c21)[PH](c1ccccc1)(c1ccccc1)[Pd](OC(=O)O[Cs])(c1cncc2ccccc12)[PH]3(c1ccccc1)c1ccccc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CC1(C)c2ccccc2Oc2ccc3c(c21)[PH](c1ccccc1)(c1ccccc1)[Pd](c1cncc2ccccc12)(Cl)[PH]3(c1ccccc1)c1ccccc1\"\n}"
+    },
+    {
+        "id": "64feca80-ca5c-458c-98af-c7a2e766d2e9",
+        "gt": "CC(C)(C)O.Cn1ncc2cc(N[Pd]3(c4ncc5ccn(CCCNC(=O)C6CCC6)c5n4)[PH](c4ccccc4)(c4ccccc4)c4cccc5c4Oc4c(cccc4[PH]3(c3ccccc3)c3ccccc3)C5(C)C)ccc21",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"Cn1ncc2cc(N)ccc21.CC(C)(C)O[Pd]1(c2ncc3ccn(CCCNC(=O)C4CCC4)c3n2)[PH](c2ccccc2)(c2ccccc2)c2cccc3c2Oc2c(cccc2[PH]1(c1ccccc1)c1ccccc1)C3(C)C\"\n}"
+    },
+    {
+        "id": "66bda7de-b37f-401c-8f51-6b724dc1c34e",
+        "gt": "CC(C)(C)O[Pd]1(c2ccc3nc(-c4ccc(F)cc4)n(-c4ccncc4)c3n2)[PH](c2ccccc2)(c2ccccc2)c2ccc3ccccc3c2-c2c(ccc3ccccc23)[PH]1(c1ccccc1)c1ccccc1.[I-].[Na+]",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"Fc1ccc(-c2nc3ccc([Pd]4(I)[PH](c5ccccc5)(c5ccccc5)c5ccc6ccccc6c5-c5c(ccc6ccccc56)[PH]4(c4ccccc4)c4ccccc4)nc3n2-c2ccncc2)cc1\"\n}"
+    },
+    {
+        "id": "256eb3c0-6985-4a69-91f2-5f69852d6ab5",
+        "gt": "COCCOCCOc1cc2ncn(COC(=O)C(C)(C)C)c(=O)c2cc1OC.O=P(c1ccccc1)(c1ccccc1)c1ccccc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"COc1cc2c(=O)n(COC(=O)C(C)(C)C)cnc2cc1O.COCCOCCO\"\n}"
+    },
+    {
+        "id": "9246a7ba-0b2a-4fef-8cdc-8bbf944a4f10",
+        "gt": "CC(C)OC(=O)NN(C(=O)OC(C)C)P([OH+]CCN1CC(=O)N(C)CC1=O)(c1ccccc1)(c1ccccc1)c1ccccc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CN1CC(=O)N(CCO)CC1=O.CC(C)OC(=O)NN(C(=O)OC(C)C)[P+](c1ccccc1)(c1ccccc1)c1ccccc1\"\n}"
+    },
+    {
+        "id": "3033917f-b02b-43b8-b590-148345d1ff18",
+        "gt": "CCC([OH+]P(c1ccccc1)(c1ccccc1)(c1ccccc1)N(NC(=O)OC(C)C)C(=O)OC(C)C)c1ccc(F)cc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"COC(=O)c1ccc(C[N-]S(=O)(=O)c2ccc(Cl)cc2)cc1.CCC(O)c1ccc(F)cc1\"\n}"
+    },
+    {
+        "id": "e8f118c8-926e-4e96-a6d0-aa9bb7925d34",
+        "gt": "CCOC(=O)NN(C(=O)OCC)P([OH+][C@@H](CCc1cccnc1)COS(=O)(=O)c1ccc(C)cc1)(c1ccccc1)(c1ccccc1)c1ccccc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"Cc1ccc(S(=O)(=O)OC[C@@H](O)CCc2cccnc2)cc1.CCOC(=O)N([P+](c1ccccc1)(c1ccccc1)c1ccccc1)C(=O)OCC\"\n}"
+    },
+    {
+        "id": "e67d3ef2-74cc-4175-8c4d-757d0fdd1cb9",
+        "gt": "CC[O-].CC(C)(C)OC(=O)Nc1nc(C=C2CN(C(c3ccccc3)(c3ccccc3)c3ccccc3)CCC2O)cs1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CC(C)(C)OC(=O)Nc1nc(C=C2CN(C(c3ccccc3)(c3ccccc3)c3ccccc3)CCC2OH)cs1\"\n}"
+    },
+    {
+        "id": "6957c468-c962-4ec2-81d3-0883528f3a34",
+        "gt": "O[Pd]O.Cc1ccccc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"O[PdH](O)Cc1ccccc1\"\n}"
+    },
+    {
+        "id": "45557240-3c72-46e7-9639-34f6d4b7a27b",
+        "gt": "O=C(Nc1ccc(Oc2cc(Cl)ncn2)cc1)Nc1ccc(CN2CCC2)c(C(F)(F)F)c1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"O=C(Nc1ccc(Oc2cc(Cl)ncn2)cc1)C(NCc3ccc(CN4CCC4)c(C(F)(F)F)c3)C(OC(COCC)COCC)C(OC(COCC)COCC)C\"\n}"
+    },
+    {
+        "id": "57fe79f8-9aa1-4b89-af89-c393984173cc",
+        "gt": "CNC(=O)OCc1ccc2nnc([C@@H](COCc3ccccc3)NC(=O)C(C)(C)NC(=O)OC(C)(C)C)n2c1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"C[N-]C(=O)[OH+]Cc1ccc2nnc([C@@H](COCc3ccccc3)NC(=O)C(C)(C)NC(=O)OC(C)(C)C)n2c1\"\n}"
+    },
+    {
+        "id": "04b03573-c4ea-441e-8edf-36dd874234a1",
+        "gt": "Cn1nc(C(C)(O)NCCCO)c2cc(F)c(F)cc2c1=O",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"Cn1nc(C(C)([O-])[NH2+]CCCO)c2cc(F)c(F)cc2c1=O\"\n}"
+    },
+    {
+        "id": "6dd07ecc-f56c-4f8b-bfcd-0ff240dda44e",
+        "gt": "O=C(O)c1cccc(Cl)c1.CCn1cnc2c(Nc3ccc(Cl)cc3)nc(S(C)(=O)=O)nc21",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"O=C(O)c1cccc(Cl)c1.CCn1cnc2c(Nc3ccc(Cl)cc3)nc(S(C)=O)nc21\"\n}"
+    },
+    {
+        "id": "b3d11a53-af98-4588-a548-dbf11d4d9469",
+        "gt": "COc1cccc(Oc2ccc(-c3nc([C@@H]4CCCCN4C(=O)O)n4ccncc34)cc2)c1F.BrCc1ccccc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"COc1cccc(Oc2ccc(-c3nc([C@@H]4CCCCN4)n4ccncc34)cc2)c1F\"\n}"
+    },
+    {
+        "id": "acce0e8e-4a4e-419b-9764-a584aafe4878",
+        "gt": "CNC(=O)c1cc(Oc2ccc(NC(=O)C3=C(c4ccc(F)cc4)[NH+](C)C(S(C)(=O)=O)=N3)cc2)ccn1.[I-]",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CI.CNC(=O)c1cc(Oc2ccc(NC(=O)c3nc(S(C)(=O)=O)nc3-c3ccc(F)cc3)cc2)ccn1\"\n}"
+    },
+    {
+        "id": "97cea772-8af1-485e-81fb-03dc80670d74",
+        "gt": "CC(C)(C)[Si](C)(C)F.C[C@H]1C(=O)N(CCCN2CCC3(CC3)[C@H]([O-])C2)CC[NH+]1c1ccc(C(F)(F)F)c(Cl)c1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"C[C@H]1C(=O)N(CCCN2CCC3(CC3)[C@H](O)C2)CC[NH+]1c1ccc(C(F)(F)F)c(Cl)c1\"\n}"
+    },
+    {
+        "id": "cfc28c73-85f6-493a-ad05-8dc6589df5df",
+        "gt": "CC(C)(C)[Si](F)(c1ccccc1)c1ccccc1.COc1ccc(NCc2ccc(C(=O)[NH2+]c3cc(C#CC[O-])ccc3[N+](=O)[O-])cc2)cc1OC",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"COc1ccc(NCc2ccc(C(=O)[NH2+]c3cc(C#CC[O-])ccc3[N+](=O)[O-])cc2)cc1OC\"\n}"
+    },
+    {
+        "id": "c49f2ee5-f7bf-4d69-bd4a-6c13f54cac80",
+        "gt": "CC(C)[Si](F)(C(C)C)C(C)C.CC(=O)Oc1ccc(C=Cc2cc(O)cc(O[Si](C(C)C)(C(C)C)C(C)C)c2)cc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CC(=O)Oc1ccc(C=Cc2cc(O)cc(O)c2)cc1\"\n}"
+    },
+    {
+        "id": "8ceca4fd-224c-492c-9567-b24c02ddc402",
+        "gt": "CCNC(=O)NCCCN(C)C.COC(=O)[C@@H]1CCCCN1S(=O)(=O)c1ccc(F)cc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CCNC(=O)NCCCN(C)C.COC(=O)[C@@H]1CCCCN1S(=O)(=O)c1ccc(F)cc1\"\n}"
+    },
+    {
+        "id": "da4f39b8-673a-40d4-ae41-6a24879acbb1",
+        "gt": "CCOCCOc1ccc([Pd](Cl)(Cl)Br)c(C)c1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"Cl[Pd]Cl.CCOCCOc1ccc(Br)c(C)c1\"\n}"
+    },
+    {
+        "id": "37d28dff-1c31-46a0-8467-999a85691733",
+        "gt": "Cc1cc(-c2ccc(CC(=O)Nc3ccc(B4OC(C)(C)C(C)(C)O4)cn3)s2)ccn1.[Pd]",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"Cc1cc(-c2ccc(CC(=O)Nc3ccc(Cl)cn3)s2)ccn1\"\n}"
+    },
+    {
+        "id": "fea1855c-3418-465f-851d-6a4f61a1e427",
+        "gt": "Cn1cc(-c2ccc3c(N4CC=C(B5OC(C)(C)C(C)(C)O5)CC4)cnn3c2)cn1.CC(C)c1cc(C(C)C)c(-c2ccccc2[PH]([Pd][PH](c2ccccc2-c2c(C(C)C)cc(C(C)C)cc2C(C)C)(C2CCCCC2)C2CCCCC2)(C2CCCCC2)C2CCCCC2)c(C(C)C)c1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CC(C)c1cc(C(C)C)c(-c2ccccc2[PH](C2CCCCC2)(C2CCCCC2)[Pd](B2OC(C)(C)C(C)(C)O2)(C2=CCN(c3cnn4cc(-c5cnn(C)c5)ccc34)CC2)[PH](c2ccccc2-c2c(C(C)C)cc(C(C)C)cc2C(C)C)(C2CCCCC2)C2CCCCC2)c(C(C)C)c1\"\n}"
+    },
+    {
+        "id": "5a30a64c-bf5a-4333-bc2a-2df30be4123a",
+        "gt": "CC[N+](CC)(CC)[Pd](I)(OC(C)=O)c1ccc(-c2ccn(C)n2)c(OC)c1OC",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CC[N+](CC)(CC)[Pd]OC(C)=O.COc1c(I)ccc(-c2ccn(C)n2)c1OC\"\n}"
+    },
+    {
+        "id": "da899959-43c5-452b-b318-11febb49f98b",
+        "gt": "O=C1CCC(=O)N1.CC(C)(C)OC(=O)N1C[C@H]2CCNc3ccc(Cl)cc3[C@@H]2C1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"O=C1CCC(=O)N1.CC(C)(C)OC(=O)N1C[C@H]2CCNc3ccc(Cl)cc3[C@@H]2C1\"\n}"
+    },
+    {
+        "id": "0aff798a-02f4-4916-b6e3-dee270433d98",
+        "gt": "[Cl-].O=P(=[OH+])Cl.CCOc1cc2c(Cl)cc(C)nc2nc1C",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CCOC1=C[C-]2C(=NC(C)=CC2(Cl)OP(=O)(Cl)Cl)N=C1C\"\n}"
+    },
+    {
+        "id": "73580450-4bde-48cc-8207-b58030e4af32",
+        "gt": "O=C1CCC(=O)[N-]1.O=C(NC1=CC(I)[CH+]NC1=O)OCc1ccccc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"O=C1CCC(=O)[N-]1.O=C(Nc1cc(I)c[nH]c1=O)OCc1ccccc1\"\n}"
+    },
+    {
+        "id": "690dbe33-68e4-486e-9af4-3241ad9b66cb",
+        "gt": "COc1ccc(Cn2nc(-c3nc4c(COS(C)(=O)([O-])Cl)cccc4[nH]3)c3cc(-c4cncc5ccccc45)ccc32)cc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CS(=O)(=O)Cl.COc1ccc(Cn2nc(-c3nc4c(C[O-])cccc4[nH]3)c3cc(-c4cncc5ccccc45)ccc32)cc1\"\n}"
+    },
+    {
+        "id": "4475bbae-3996-4ca4-aaa9-fe055dd49089",
+        "gt": "ClCC(=[O+][Al-](Cl)(Cl)Cl)[Cl+][Al-](Cl)(Cl)Cl",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"Clc1ccccc1CN1CCC2SC=CC2C1.CCl([O+])=[Al-](Cl)(Cl)Cl\"\n}"
+    },
+    {
+        "id": "2735b86b-7cde-4da2-8d56-3403e5f14124",
+        "gt": "I.CC(C)(O)C#C[Cu]",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"[Cu]I.C#CC(C)(C)O\"\n}"
+    },
+    {
+        "id": "7c2f8219-9142-4995-b5b2-c55a76056670",
+        "gt": "OCc1cccc([Pd](Cl)(I)([P+](c2ccccc2)(c2ccccc2)c2ccccc2)[PH](c2ccccc2)(c2ccccc2)c2ccccc2)c1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"OCc1cccc([Pd]([P+](c2ccccc2)(c2ccccc2)c2ccccc2)[PH](c2ccccc2)(c2ccccc2)c2ccccc2)c1\"\n}"
+    },
+    {
+        "id": "609e1b67-5344-4a1c-a893-c976da4eeb1f",
+        "gt": "c1ccc([PH]([Pd][PH](c2ccccc2)(c2ccccc2)c2ccccc2)(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"c1ccc([PH](c2ccccc2)(c2ccccc2)[Pd]([PH](c2ccccc2)(c2ccccc2)c2ccccc2)[PH](c2ccccc2)(c2ccccc2)c2ccccc2)cc1\"\n}"
+    },
+    {
+        "id": "f09ce374-e5ac-446a-ad71-e7c4bbf2f6bb",
+        "gt": "CC#C[Cu].I",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"[Cu]I.C#CC\"\n}"
+    },
+    {
+        "id": "0a0d12d1-627a-4ed1-874d-8008b1832607",
+        "gt": "CN1C(=CC([O-])C2SC(=S)N(CCCN3CC=CC3)C2=[OH+])Sc2ccc3ccccc3c21",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CN1C(=CC=O)Sc2ccc3ccccc3c21.Oc1csc(=S)n1CCCN1CC=CC1\"\n}"
+    },
+    {
+        "id": "da45c9b7-e22c-4330-aeda-f42133f3aa3e",
+        "gt": "CCOC(=O)C=CCBr",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"BrCC=CC(=O)OCC\"\n}"
+    },
+    {
+        "id": "9438d264-b95d-4d81-8c0c-86d94bfa883f",
+        "gt": "[Cl-].CCC=C(C)C(O)C(C)CC.CCC=C(C)C(O)C(C)CC",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CCC=C(C)C(O)C(C)CC.Cl.CCC=C(C)C(O)C(C)CC\"\n}"
+    },
+    {
+        "id": "5081885e-ea8a-4558-992e-446c6197f635",
+        "gt": "CC(C)([O-])CCC(C)(C)c1cccs1.[Mg+]Br",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CC(=O)CCC(C)(C)c1cccs1\"\n}"
+    },
+    {
+        "id": "39748ae6-701f-45ab-b69b-50bbf89c2a76",
+        "gt": "CC(O)CCc1ccccn1.[OH-]",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CC(O)CCc1ccccn1\"\n}"
+    },
+    {
+        "id": "7c1d6181-4d4e-4f46-bcaf-c445d5e1cee4",
+        "gt": "CC(C)([O-])c1ccc(-c2cn3cccc3c(=O)[nH]2)cc1.[Mg+]Cl",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CC(=O)c1ccc(-c2cn3cccc3c(=O)[nH]2)cc1.[Mg+]Cl\"\n}"
+    },
+    {
+        "id": "a5802ccd-5474-48cd-b1af-aeed59d5d32c",
+        "gt": "C[O-].COc1cc(OC)cc(C(=O)c2ccc3ncc(-c4cnn(C)c4)nc3n2)c1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"COc1cc(OC)cc(CO)c1\"\n}"
+    },
+    {
+        "id": "20f2e48d-7267-4101-aa2a-47361573aa8e",
+        "gt": "O=C([O-])O[Na].CC(O)CCCn1c(Cn2c(=O)n(C3CC3)c3ccncc32)nc2nc(Cl)ccc21",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"O=C(O)O[Na].CC(=O)[O-].CC([O-])CCCn1c(Cn2c(=O)n(C3CC3)c3ccncc32)nc2nc(Cl)ccc21\"\n}"
+    },
+    {
+        "id": "88a7a10a-16a5-44cb-917a-55e673fc72f5",
+        "gt": "[OH-].O=C(Cc1ccc(C(F)(F)F)cc1)c1ccccc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"O=C(Cl)Cc1ccc(C(F)(F)F)cc1\"\n}"
+    },
+    {
+        "id": "6e0b1582-662d-453b-a512-3ee79bbdc2a7",
+        "gt": "CCOC(=O)C=C1CC(OCc2ccccc2)C1.O=P(c1ccccc1)(c1ccccc1)c1ccccc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CCOC(=O)C=P(c1ccccc1)(c1ccccc1)c1ccccc1.O=C1CC(OCc2ccccc2)C1\"\n}"
+    },
+    {
+        "id": "b2b843cd-a223-444f-8216-b882e44b7445",
+        "gt": "COc1cccc([Pd](Br)([PH](c2ccccc2)(c2ccccc2)c2ccccc2)[PH](c2ccccc2)(c2ccccc2)c2ccccc2)c1C(=O)N[C@H]1CCC[C@@H]1COc1ccc(F)cc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"COc1cccc(Br)c1C(=O)N[C@H]1CCC[C@@H]1COc1ccc(F)cc1.c1ccc([Pd][PH](c2ccccc2)(c2ccccc2)c2ccccc2)(c2ccccc2)c2ccccc2\"\n}"
+    },
+    {
+        "id": "9e5482a8-b996-41b2-b75d-c5ab783c195b",
+        "gt": "c1ccc([PH]([Pd][PH](c2ccccc2)(c2ccccc2)c2ccccc2)(c2ccccc2)c2ccccc2)cc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"[Pd][PH](c1ccccc1)(c1ccccc1)c1ccccc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1\"\n}"
+    },
+    {
+        "id": "7cceeb21-bdb2-49ce-aa6f-930b68aba98c",
+        "gt": "Fc1ccc([Pd](I)([PH](c2ccccc2)(c2ccccc2)c2ccccc2)[PH](c2ccccc2)(c2ccccc2)c2ccccc2)cc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"Fc1ccc(I)cc1.c1ccc([Pd][PH](c2ccccc2)(c2ccccc2)c2ccccc2)(c2ccccc2)c2ccccc2\"\n}"
+    },
+    {
+        "id": "4d4ebc31-4206-466d-8428-f64bda78f115",
+        "gt": "COC(=O)[C@H](Cc1cc(COC=[N+](C)C)ccn1)NC(C)=O.O=C(O)O.[Na+]",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"COC(=O)[C@H](Cc1cc(C([OH+])C=[N+](C)C)ccn1)NC(C)=O\"\n}"
+    },
+    {
+        "id": "44280f55-453f-48d1-8f26-6d10388e14b4",
+        "gt": "[Br-].C[N+](C)=C[OH+]Cc1c(F)cncc1F",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"C[N+](C)=CBr.OCc1c(F)cncc1F\"\n}"
+    },
+    {
+        "id": "fecced41-03fb-4bbc-a7a0-93534dfa5c4a",
+        "gt": "COc1cc(C(=O)OC(N(C)C)=[N+](C)C)cc(F)c1F.[O-]n1nnc2cccnc21",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"COc1cc(C(=O)O)cc(F)c1F.CN(C)C(On1nnc2cccnc21)=[N+](C)C\"\n}"
+    },
+    {
+        "id": "538a1543-9f29-4b95-bce0-edc9088dcd77",
+        "gt": "[Cl-].CO[NH+](C)C(C)(O)[C@H]1CCCN1C(=O)OC(C)(C)C",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CON(C)C(C)(O)[C@H]1CCCN1C(=O)OC(C)(C)C\"\n}"
+    },
+    {
+        "id": "a1297e70-a934-4fe6-8509-bff333ee700b",
+        "gt": "O.COC(=[OH+])CCc1c[nH]cn1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"COC(=O)CCc1c[nH]cn1\"\n}"
+    },
+    {
+        "id": "656010d9-6a53-4f0b-88d1-c5443953bd41",
+        "gt": "[O-]C([NH2+]C=Cc1ccccc1)(OC(=NC1CCCCC1)NC1CCCCC1)[C@H](O)CO",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"O=C(OC(=NC1CCCCC1)NC1CCCCC1)[C@H](O)CO\"\n}"
+    },
+    {
+        "id": "c7895549-f1a6-4133-9044-95bfd7c493c6",
+        "gt": "C=C(O)CC(=O)C=Cc1ccc(O)c(OC)c1.[OH3+]",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"O.COc1cc(C=CC(=O)CC(=O)C=Cc2cccc(O)c2OC)ccc1O\"\n}"
+    },
+    {
+        "id": "1832cc3e-09fe-415e-986f-f19b1c6e6f31",
+        "gt": "O=Cc1ccnc(C(F)(F)F)c1.CC(=O)O.CC(=O)OI1OC(=O)c2ccccc21",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"OCc1ccnc(C(F)(F)F)c1\"\n}"
+    },
+    {
+        "id": "bda79ed2-c876-4c7b-ba2a-c888d665a0c7",
+        "gt": "CC(=O)[O-].CC(=O)O[I+]1(O[C@H]2CN(S(=O)(=O)c3ccccn3)[C@H](C)CC[C@@H]2NC(=O)[C@H](CC(C)C)NC(=O)c2cc3ccccc3o2)OC(=O)c2ccccc21",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CC(=O)O.CC(=O)I1(OC(C)=O)(O[C@H]2CN(S(=O)(=O)c3ccccn3)[C@H](C)CC[C@@H]2NC(=O)[C@H](CC(C)C)NC(=O)c2cc3ccccc3o2)OC(=O)c2ccccc21\"\n}"
+    },
+    {
+        "id": "31d0233e-efa6-4fba-9a9b-15e3d30ef996",
+        "gt": "N=C(NO)c1ccc2[nH]ncc2c1.O=C(O)O.[Na+]",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"N=C([NH2+]O)c1ccc2[nH]ncc2c1\"\n}"
+    },
+    {
+        "id": "4a9753d8-7b29-4b36-8446-f9c5945495f2",
+        "gt": "C[NH+](C)C.CC(C)(C)OC(=O)N1CCC2(CC1)CN(C(=O)OCc1ccccc1)CCO2",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CN(C)C.CC(C)(C)OC(=O)N1CCC2(CC1)C[NH+](C(=O)OCc1ccccc1)CCO2\"\n}"
+    },
+    {
+        "id": "0a4f8d48-36bd-48ce-8d95-cbd4cc3669c8",
+        "gt": "CC(CC[NH+]1CCOCC1)Oc1ccc([N+](=O)[O-])cc1.CCN(CC1CCN(CC2CC2)C1)c1ccc(-n2ccnc2)cc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CC(CCN1CCOCC1)Oc1ccc([N+](=O)[O-])cc1.CC[NH+](CC1CCN(CC2CC2)C1)c1ccc(-n2ccnc2)cc1\"\n}"
+    },
+    {
+        "id": "6c402069-3768-40f4-8c93-54f0eabef36f",
+        "gt": "CCOC(=O)C(C)c1ccc(OC)c(OC)c1.[I-]",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CCOC(=O)c1ccc(OC)c(OC)c1\"\n}"
+    },
+    {
+        "id": "82cb8242-e677-4bd3-bdda-a45ea24c9d2c",
+        "gt": "CC(O)C1C(=O)N2C(C(=O)O)=C(SC3COC(COP(=O)(O)OC(C)[N+](C)(C)C)C3)C(C)C12.O=[N+]([O-])c1ccc(C[O-])cc1",
+        "task": "nepp",
+        "json_response": "{\n    \"pred_smi\": \"CC(O)C1C(=O)N2C(C(O)OCc3ccc([N+](=O)[O-])cc3)=C(SC3COC(COP(=O)(O)OC(C)[N+](C)(C)C)C3)C(C)C12\"\n}"
+    }
+]

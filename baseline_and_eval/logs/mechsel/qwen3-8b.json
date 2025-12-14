@@ -1,0 +1,602 @@
+[
+    {
+        "id": "4307e453-cc1a-4243-a68b-03f9679101bf",
+        "gt": "G",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"E\"\n}"
+    },
+    {
+        "id": "45062918-ca98-401b-b43e-6a1782bbdd2d",
+        "gt": "I",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"I\"\n}"
+    },
+    {
+        "id": "b8c9f9f7-2ded-4768-bb8d-10c1d344ce1b",
+        "gt": "G",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"H\"\n}"
+    },
+    {
+        "id": "5df4167a-18bd-4a74-96a7-ddc78272265d",
+        "gt": "H",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"H\"\n}"
+    },
+    {
+        "id": "07aa55a2-64f9-4e74-b80c-012bbb30aafc",
+        "gt": "F",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"C\"\n}"
+    },
+    {
+        "id": "7550606e-3c70-4b2b-a2b5-8f1a3694a4b3",
+        "gt": "I",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"I\"\n}"
+    },
+    {
+        "id": "d6ee81ce-f4d0-4502-8a51-a9470faf4006",
+        "gt": "A",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"A\"\n}"
+    },
+    {
+        "id": "4e32c01e-4af7-438d-bb1e-182a9c32d4bf",
+        "gt": "A",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"I\"\n}"
+    },
+    {
+        "id": "15990c5c-e805-403a-9d89-91416ed1cc0d",
+        "gt": "F",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"H\"\n}"
+    },
+    {
+        "id": "71f910f0-4475-4f53-bf44-3a8069f5979c",
+        "gt": "G",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"J\"\n}"
+    },
+    {
+        "id": "db3207f4-145d-42f1-a0fb-aa19d80ba334",
+        "gt": "I",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"I\"\n}"
+    },
+    {
+        "id": "c89a5889-8c1e-4f78-930b-3d92030ba64f",
+        "gt": "G",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"F\"\n}"
+    },
+    {
+        "id": "c40d1364-d3be-4a8a-95b4-36106d7524ce",
+        "gt": "B",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"I\"\n}"
+    },
+    {
+        "id": "d5d06ec2-d8d8-4b67-baa1-b15529eb0681",
+        "gt": "E",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"E\"\n}"
+    },
+    {
+        "id": "1a874032-65c7-413a-82be-da000965d006",
+        "gt": "G",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"F\"\n}"
+    },
+    {
+        "id": "48734e42-cb8d-4f87-ae60-b9b662de0d76",
+        "gt": "C",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"C\"\n}"
+    },
+    {
+        "id": "5250dc9b-a09b-46d3-a2fa-7abd201dd3d2",
+        "gt": "A",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"F\"\n}"
+    },
+    {
+        "id": "01b716e8-e548-4ab5-b871-27ad2819e99d",
+        "gt": "G",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"E\"\n}"
+    },
+    {
+        "id": "4ea694be-6026-450a-bd5f-e27fb002f982",
+        "gt": "E",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"I\"\n}"
+    },
+    {
+        "id": "40fbea93-32d8-4e5e-aede-4c9304b5fb83",
+        "gt": "A",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"D\"\n}"
+    },
+    {
+        "id": "c536cd23-47b6-49ec-8db1-24ca582576e8",
+        "gt": "H",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"H\"\n}"
+    },
+    {
+        "id": "37785575-0571-4a59-84ba-78711311bdb2",
+        "gt": "A",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"H\"\n}"
+    },
+    {
+        "id": "93860864-6a23-404a-909a-1d61f77322ae",
+        "gt": "H",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"H\"\n}"
+    },
+    {
+        "id": "dc83c11c-7c1e-40db-99e2-e21e6457e0d7",
+        "gt": "E",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"D\"\n}"
+    },
+    {
+        "id": "1cfa46e9-75c0-4a90-8a78-f9a4c952f788",
+        "gt": "F",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"J\"\n}"
+    },
+    {
+        "id": "b816fdfd-7271-4e52-80b9-e850ed10e61c",
+        "gt": "H",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"H\"\n}"
+    },
+    {
+        "id": "d2b93c84-ee6d-4e25-aedb-5e1411f00595",
+        "gt": "F",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"I\"\n}"
+    },
+    {
+        "id": "0e6705bb-2047-4e3e-a82c-b4c33b08ad8f",
+        "gt": "J",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"J\"\n}"
+    },
+    {
+        "id": "eaf33a12-c694-4414-b7f3-14f0ae10a2d8",
+        "gt": "A",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"D\"\n}"
+    },
+    {
+        "id": "245f3573-9dc4-42fa-986f-2070982f9fa1",
+        "gt": "C",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"C\"\n}"
+    },
+    {
+        "id": "475f0652-b117-4d34-86eb-ecf6e0a1fbe1",
+        "gt": "G",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"G\"\n}"
+    },
+    {
+        "id": "9caecd93-972d-48a7-b4dc-373f88f2c421",
+        "gt": "G",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"G\"\n}"
+    },
+    {
+        "id": "907e2bb7-48c2-4d64-a3a9-8b94c5d450bd",
+        "gt": "E",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"E\"\n}"
+    },
+    {
+        "id": "f1a89574-4de6-4d56-8948-f9457307ed92",
+        "gt": "B",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"B\"\n}"
+    },
+    {
+        "id": "9f5a74ed-6a12-4f0b-964b-4ee37dcc209f",
+        "gt": "E",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"A\"\n}"
+    },
+    {
+        "id": "8e8adfe6-be16-4300-adcd-6ec0d025bf64",
+        "gt": "F",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"E\"\n}"
+    },
+    {
+        "id": "6967ca80-822c-4d45-84be-94e47b247111",
+        "gt": "E",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"G\"\n}"
+    },
+    {
+        "id": "466672c9-5cca-4742-84f9-bebe5524ff55",
+        "gt": "D",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"B\"\n}"
+    },
+    {
+        "id": "08f2c28e-3354-4567-bb54-879463b11800",
+        "gt": "F",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"F\"\n}"
+    },
+    {
+        "id": "75c03f2d-108b-4c1b-ba28-da13f59c2b67",
+        "gt": "A",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"G\"\n}"
+    },
+    {
+        "id": "0ff748e2-2eaf-4d7a-b962-47bf5a2e6364",
+        "gt": "B",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"G\"\n}"
+    },
+    {
+        "id": "aa4ecd5d-fe7c-4711-bba7-3ddb8126f2aa",
+        "gt": "C",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"E\"\n}"
+    },
+    {
+        "id": "cd1fbb6d-57b5-4cab-9253-bfb994f574f5",
+        "gt": "C",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"E\"\n}"
+    },
+    {
+        "id": "ac72a95d-6ebb-4600-b007-76de6a1fff94",
+        "gt": "A",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"G\"\n}"
+    },
+    {
+        "id": "19fe7524-1ecc-4104-a9f4-3dae6031a3df",
+        "gt": "A",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"G\"\n}"
+    },
+    {
+        "id": "9aed4906-f63b-419d-ba58-b48b0702c23f",
+        "gt": "E",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"F\"\n}"
+    },
+    {
+        "id": "d38cfb07-e6a5-4c38-8257-333e5c0f2ed9",
+        "gt": "E",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"A\"\n}"
+    },
+    {
+        "id": "8ddf57c5-4ed1-4c17-9c4b-392b19c2c89c",
+        "gt": "F",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"F\"\n}"
+    },
+    {
+        "id": "a0fd7ce7-41d5-4fe9-a92b-738356849ab7",
+        "gt": "B",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"E\"\n}"
+    },
+    {
+        "id": "8de48e67-8320-4303-8b95-d7187e940945",
+        "gt": "E",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"C\"\n}"
+    },
+    {
+        "id": "60650bfe-829d-4e39-b156-cf7ba2cc2e09",
+        "gt": "C",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"C\"\n}"
+    },
+    {
+        "id": "62beec3a-b660-4b31-afd4-83a93b34117b",
+        "gt": "C",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"G\"\n}"
+    },
+    {
+        "id": "2cc9af04-d9b8-498e-8397-ecd6aa20ac40",
+        "gt": "A",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"F\"\n}"
+    },
+    {
+        "id": "ad7e821e-1d3c-40c3-8443-a20700053fc2",
+        "gt": "B",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"D\"\n}"
+    },
+    {
+        "id": "d0194857-b6bc-44d3-9872-baf690d6d6a3",
+        "gt": "G",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"C\"\n}"
+    },
+    {
+        "id": "0c52e56b-340c-4d6b-8785-2564287e425e",
+        "gt": "G",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"C\"\n}"
+    },
+    {
+        "id": "3d72e75c-16e9-4df3-a87d-ccbfc98dcced",
+        "gt": "E",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"F\"\n}"
+    },
+    {
+        "id": "d1ec6883-d1f3-4e57-9f09-a90e9b56b9f7",
+        "gt": "B",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"E\"\n}"
+    },
+    {
+        "id": "471a3e4d-9451-4323-901e-fe3f32b76aee",
+        "gt": "B",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"G\"\n}"
+    },
+    {
+        "id": "016f85db-7ce1-4d23-8e30-3ceb93665840",
+        "gt": "F",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"F\"\n}"
+    },
+    {
+        "id": "062f94ed-85ed-4b3e-8272-725d3b524b87",
+        "gt": "A",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"A\"\n}"
+    },
+    {
+        "id": "53b358e6-5c80-4a6f-8947-011a8ffa3164",
+        "gt": "B",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"A\"\n}"
+    },
+    {
+        "id": "e330646f-fcd8-4ac1-badb-cbb9987fa67a",
+        "gt": "C",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"C\"\n}"
+    },
+    {
+        "id": "c3fe7a90-8de1-472b-932c-21587aa363d5",
+        "gt": "C",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"C\"\n}"
+    },
+    {
+        "id": "46a7cf66-c903-436a-9c4e-d48b7d81acab",
+        "gt": "G",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"H\"\n}"
+    },
+    {
+        "id": "7151a22c-7110-44a9-8106-b15858ba34bf",
+        "gt": "H",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"D\"\n}"
+    },
+    {
+        "id": "665497bb-1cdf-42f3-aec5-2bbbdf9243fa",
+        "gt": "E",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"F\"\n}"
+    },
+    {
+        "id": "ec3baddc-6547-4c1a-bd24-7755d820ca1c",
+        "gt": "C",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"H\"\n}"
+    },
+    {
+        "id": "78c04490-daa0-4aa1-8cfb-1d9400f25cf6",
+        "gt": "A",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"F\"\n}"
+    },
+    {
+        "id": "7e9369eb-9f5f-4e73-a21d-5910ed84f80d",
+        "gt": "F",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"D\"\n}"
+    },
+    {
+        "id": "1dc343c6-c0b3-41df-9076-39797ae60161",
+        "gt": "G",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"G\"\n}"
+    },
+    {
+        "id": "ccfeb536-b3fd-4c86-b4f5-c27c001edb8c",
+        "gt": "D",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"H\"\n}"
+    },
+    {
+        "id": "4a575534-acbb-42b7-b574-7d9bf4278636",
+        "gt": "E",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"A\"\n}"
+    },
+    {
+        "id": "6e1fa689-0b2e-4615-b03a-decdc2cb8b54",
+        "gt": "G",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"G\"\n}"
+    },
+    {
+        "id": "e89e0405-bb63-43eb-bab3-c0c27f713f01",
+        "gt": "G",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"E\"\n}"
+    },
+    {
+        "id": "13e2458e-a59e-4753-9db2-fe83521339c7",
+        "gt": "A",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"D\"\n}"
+    },
+    {
+        "id": "f49eb2d7-482b-4830-8bf1-4702ecc66b29",
+        "gt": "E",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"E\"\n}"
+    },
+    {
+        "id": "6d12e3c1-58ca-4509-a76b-181744512740",
+        "gt": "D",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"H\"\n}"
+    },
+    {
+        "id": "5c8336d4-e2f2-4b34-8eca-188c80d8dc60",
+        "gt": "D",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"F\"\n}"
+    },
+    {
+        "id": "f1df13d4-1e6b-4b68-8ebb-398361edbbbc",
+        "gt": "D",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"F\"\n}"
+    },
+    {
+        "id": "9b1a8e4b-49ba-4019-a844-f2d9e8bda335",
+        "gt": "D",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"E\"\n}"
+    },
+    {
+        "id": "043d19f1-b84f-4456-bf94-b5818eacc32b",
+        "gt": "G",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"H\"\n}"
+    },
+    {
+        "id": "f0248d5a-4149-4b3b-bcbe-34f7983c5060",
+        "gt": "G",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"G\"\n}"
+    },
+    {
+        "id": "4ef3fd6c-6649-4f8c-bfe3-5d924b6f36a9",
+        "gt": "A",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"C\"\n}"
+    },
+    {
+        "id": "92d11370-c7a8-49fb-82e3-46347a90f20c",
+        "gt": "B",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"E\"\n}"
+    },
+    {
+        "id": "b33c9beb-72a1-4834-8eba-ce9e4fe9bb90",
+        "gt": "D",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"D\"\n}"
+    },
+    {
+        "id": "fb14f777-743d-4a7d-b2ef-360a8c5eacd6",
+        "gt": "A",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"A\"\n}"
+    },
+    {
+        "id": "bd21a9b5-c080-4423-a25f-3308c5bf7e1d",
+        "gt": "C",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"C\"\n}"
+    },
+    {
+        "id": "b260c327-106c-469d-ad1b-0966df1df71e",
+        "gt": "C",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"B\"\n}"
+    },
+    {
+        "id": "1bfadc27-c53e-48ef-91ed-79f8f4d8c786",
+        "gt": "C",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"C\"\n}"
+    },
+    {
+        "id": "aab9c87d-960b-41f8-9992-6373fa41a829",
+        "gt": "A",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"A\"\n}"
+    },
+    {
+        "id": "782826c1-2059-43f1-a41e-d2a5c50e612f",
+        "gt": "B",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"B\"\n}"
+    },
+    {
+        "id": "e14f56af-33a2-4b2c-9a4c-d189e9972570",
+        "gt": "A",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"A\"\n}"
+    },
+    {
+        "id": "e3f643b9-3446-4a2d-9b7e-b5b3be4001c4",
+        "gt": "A",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"A\"\n}"
+    },
+    {
+        "id": "32a27ab8-3229-44ec-9578-c81a47665da8",
+        "gt": "D",
+        "task": "mechsel",
+        "json_response": "```json\n{\n    \"choice\": \"C\"\n}\n```"
+    },
+    {
+        "id": "58efbcb5-9dd7-46e3-9406-cb82775aea00",
+        "gt": "B",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"D\"\n}"
+    },
+    {
+        "id": "bfc02c7b-837b-40d4-b011-5afabffc04cb",
+        "gt": "A",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"A\"\n}"
+    },
+    {
+        "id": "eee2eb8b-fde6-4239-8cd0-ffb2c8624f1d",
+        "gt": "C",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"A\"\n}"
+    },
+    {
+        "id": "17c1beec-ef48-474b-83c8-44c7107be297",
+        "gt": "A",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"A\"\n}"
+    },
+    {
+        "id": "10be5957-494f-4145-a445-63d7c3d9f852",
+        "gt": "C",
+        "task": "mechsel",
+        "json_response": "{\n    \"choice\": \"C\"\n}"
+    }
+]

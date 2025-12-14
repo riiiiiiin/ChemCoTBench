@@ -1,0 +1,542 @@
+[
+    {
+        "id": "d44e6fab-3fde-4e51-b096-9a5bc05e2d83",
+        "gt": "CN(C)C=O",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CC(C)(C)OC(=O)N1C2CCC(C1)CC2\"\n}\n```"
+    },
+    {
+        "id": "5d1b5377-a6c5-4632-af0a-904575efc986",
+        "gt": "CN(C)C=O",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CC(C)(O)C(=O)O\"\n}\n```"
+    },
+    {
+        "id": "0120052a-31f1-4cdd-9bcc-a7a44984a20d",
+        "gt": "CN(C)C=O",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CC(C)(O)C(=O)O\"\n}\n```"
+    },
+    {
+        "id": "610f08af-4e9e-482a-a65e-498d3ea9b3b9",
+        "gt": "ClCCl",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "83dc67bb-3b55-4a61-ab8c-62f951bd572c",
+        "gt": "CC(=O)N(C)C",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "c50d99cc-8c17-4cc6-ad40-f370c051b1b0",
+        "gt": "CCOC(C)=O.ClCCl",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "1288bff6-acc7-4d2a-961d-ab34220a11e4",
+        "gt": "CCN(CC)CC",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"OC(=O)C(C)(C)C\"\n}\n```"
+    },
+    {
+        "id": "e91c9e44-df67-4d36-9c1e-6bc418760897",
+        "gt": "CCN=C=NCCCN(C)C.Cl",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CSC(=O)C\"\n}\n```"
+    },
+    {
+        "id": "d59a7a6e-c26f-49e5-9ee7-3403fc6e2b3b",
+        "gt": "CCN=C=NCCCN(C)C.Cl",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CSC(=O)O\"\n}\n```"
+    },
+    {
+        "id": "aacd3d1d-c761-4526-a0ab-6385870bf50e",
+        "gt": "[Ni]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"OC(=O)C1=CC=C(C=C1)NC(=O)C2=CC=C(C=C2)N\"\n}\n```"
+    },
+    {
+        "id": "6d9de3e5-1aa8-45fa-a33f-46cc762dcf22",
+        "gt": "[Cu]I",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CC(C)(C)NC(=O)c1ccc2c(c1)OCO2\"\n}\n```"
+    },
+    {
+        "id": "1e3edf4a-577e-409f-a315-f9b8ba9dfa48",
+        "gt": "Cc1ccc(S(=O)(=O)O)cc1",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CC(C)(C)NC(=O)c1ccc2c(c1)OCO2\"\n}\n```"
+    },
+    {
+        "id": "9e2ee058-58a7-470d-abbc-b68d16be9fda",
+        "gt": "CC#N",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "be8fd63e-f05b-46e8-b72a-8e9c98faeb92",
+        "gt": "CC(=O)O",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CC(C)OC(C)(C)C\"\n}\n```"
+    },
+    {
+        "id": "f01b3968-111c-4593-bdba-3bf426ad985b",
+        "gt": "c1ccncc1",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "ab6441b2-e2ab-4c78-b165-1405264e5cfe",
+        "gt": "CN(C)C=O.O",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"ClCN1C(=O)N(C(C)=O)C(Cl)C1Cl\"\n}\n```"
+    },
+    {
+        "id": "dd816db9-8c7b-40b5-a219-33fa63bfa666",
+        "gt": "CC(=O)[O-].[Na+]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"NC(=O)c1ccccc1\"\n}\n```"
+    },
+    {
+        "id": "576bc218-74bd-4caf-8a69-d0f544dbef13",
+        "gt": "O",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"NC(=O)c1ccc2c(c1)C(=O)C(CC=O)C2\"\n}\n```"
+    },
+    {
+        "id": "34c33732-8a4c-46f0-be67-17f3893353ba",
+        "gt": "Cl[Pd](Cl)([P](c1ccccc1)(c1ccccc1)c1ccccc1)[P](c1ccccc1)(c1ccccc1)c1ccccc1",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CC(C)(C)[Sn](C)(C)C\"\n}\n```"
+    },
+    {
+        "id": "ff6fedc9-af95-4fc2-83be-2dee683ab4c2",
+        "gt": "Cl[Pd](Cl)([P](c1ccccc1)(c1ccccc1)c1ccccc1)[P](c1ccccc1)(c1ccccc1)c1ccccc1",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CC(C)(C)NC(=O)c1cccnc1\"\n}\n```"
+    },
+    {
+        "id": "d2aacee0-b72c-4cb0-a0a1-117ec33f9cc8",
+        "gt": "c1ccc([P](c2ccccc2)(c2ccccc2)[Pd]([P](c2ccccc2)(c2ccccc2)c2ccccc2)([P](c2ccccc2)(c2ccccc2)c2ccccc2)[P](c2ccccc2)(c2ccccc2)c2ccccc2)cc1",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CC(C)(C)OC(=O)N1C[C@H](C(=O)O)C[C@@H]1C(=O)N2C[C@H](C(=O)O)C[C@H]2C(=O)N3C[C@H](C(=O)O)C[C@H]3C(=O)N4C[C@H](C(=O)O)C[C@H]4C(=O)N5C[C@H](C(=O)O)C[C@H]5C(=O)N6C[C@H](C(=O)O)C[C@H]6C(=O)N7C[C@H](C(=O)O)C[C@H]7C(=O)N8C[C@H](C(=O)O)C[C@H]8C(=O)N9C[C@H](C(=O)O)C[C@H]9C(=O)N10C[C@H](C(=O)O)C[C@H]10C(=O)N11C[C@H](C(=O)O)C[C@H]11C(=O)N12C[C@H](C(=O)O)C[C@H]12C(=O)N13C[C@H](C(=O)O)C[C@H]13C(=O)N14C[C@H](C(=O)O)C[C@H]14C(=O)N15C[C@H](C(=O)O)C[C@H]15C(=O)N16C[C@H](C(=O)O)C[C@H]16C(=O)N17C[C@H](C(=O)O)C[C@H]17C(=O)N18C[C@H](C(=O)O)C[C@H]18C(=O)N19C[C@H](C(=O)O)C[C@H]19C(=O)N20C[C@H](C(=O)O)C[C@H]20C(=O)N21C[C@H](C(=O)O)C[C@H]21C(=O)N22C[C@H](C(=O)O)C[C@H]22C(=O)N23C[C@H](C(=O)O)C[C@H]23C(=O)N24C[C@H](C(=O)O)C[C@H]24C(=O)N25C[C@H](C(=O)O)C[C@H]25C(=O)N26C[C@H](C(=O)O)C[C@H]26C(=O)N27C[C@H](C(=O)O)C[C@H]27C(=O)N28C[C@H](C(=O)O)C[C@H]28C(=O)N29C[C@H](C(=O)O)C[C@H]29C(=O)N30C[C@H](C(=O)O)C[C@H]30C(=O)N31C[C@H](C(=O)O)C[C@H]31C(=O)N32C[C@H](C(=O)O)C[C@H]32C(=O)N33C[C@H](C(=O)O)C[C@H]33C(=O)N34C[C@H](C(=O)O)C[C@H]34C(=O)N35C[C@H](C(=O)O)C[C@H]35C(=O)N36C[C@H](C(=O)O)C[C@H]36C(=O)N37C[C@H](C(=O)O)C[C@H]37C(=O)N38C[C@H](C(=O)O)C[C@H]38C(=O)N39C[C@H](C(=O)O)C[C@H]39C(=O)N40C[C@H](C(=O)O)C[C@H]40C(=O)N41C[C@H](C(=O)O)C[C@H]41C(=O)N42C[C@H](C(=O)O)C[C@H]42C(=O)N43C[C@H](C(=O)O)C[C@H]43C(=O)N44C[C@H](C(=O)O)C[C@H]44C(=O)N45C[C@H](C(=O)O)C[C@H]45C(=O)N46C[C@H](C(=O)O)C[C@H]46C(=O)N47C[C@H](C(=O)O)C[C@H]47C(=O)N48C[C@H](C(=O)O)C[C@H]48C(=O)N49C[C@H](C(=O)O)C[C@H]49C(=O)N50C[C@H](C(=O)O)C[C@H]50C(=O)N51C[C@H](C(=O)O)C[C@H]51C(=O)N52C[C@H](C(=O)O)C[C@H]52C(=O)N53C[C@H](C(=O)O)C[C@H]53C(=O)N54C[C@H](C(=O)O)C[C@H]54C(=O)N55C[C@H](C(=O)O)C[C@H]55C(=O)N56C[C@H](C(=O)O)C[C@H]56C(=O)N57C[C@H](C(=O)O)C[C@H]57C(=O)N58C[C@H](C(=O)O)C[C@H]58C(=O)N59C[C@H](C(=O)O)C[C@H]59C(=O)N60C[C@H](C(=O)O)C[C@H]60C(=O)N61C[C@H](C(=O)O)C[C@H]61C(=O)N62C[C@H](C(=O)O)C[C@H]62C(=O)N63C[C@H](C(=O)O)C[C@H]63C(=O)N64C[C@H](C(=O)O)C[C@H]64C(=O)N65C[C@H](C(=O)O)C[C@H]65C(=O)N66C[C@H](C(=O)O)C[C@H]66C(=O)N67C[C@H](C(=O)O)C[C@H]67C(=O)N68C[C@H](C(=O)O)C[C@H]68C(=O)N69C[C@H](C(=O)O)C[C@H]69C(=O)N70C[C@H](C(=O)O)C[C@H]70C(=O)N71C[C@H](C(=O)O)C[C@H]71C(=O)N72C[C@H](C(=O)O)C[C@H]72C(=O)N73C[C@H](C(=O)O)C[C@H]73C(=O)N74C[C@H](C(=O)O)C[C@H]74C(=O)N75C[C@H](C(=O)O)C[C@H]75C(=O)N76C[C@H](C(=O)O)C[C@H]76C(=O)N77C[C@H](C(=O)O)C[C@H]77C(=O)N78C[C@H](C(=O)O)C[C@H]78C(=O)N79C[C@H](C(=O)O)C[C@H]79C(=O)N80C[C@H](C(=O)O)C[C@H]80C(=O)N81C[C@H](C(=O)O)C[C@H]81C(=O)N82C[C@H](C(=O)O)C[C@H]82C(=O)N83C[C@H](C(=O)O)C[C@H]83C(=O)N84C[C@H](C(=O)O)C[C@H]84C(=O)N85C[C@H](C(=O)O)C[C@H]85C(=O)N86C[C@H](C(=O)O)C[C@H]86C(=O)N87C[C@H](C(=O)O)C[C@H]87C(=O)N88C[C@H](C(=O)O)C[C@H]88C(=O)N89C[C@H](C(=O)O)C[C@H]89C(=O)N90C[C@H](C(=O)O)C[C@H]90C(=O)N91C[C@H](C(=O)O)C[C@H]91C(=O)N92C[C@H](C(=O)O)C[C@H]92C(=O)N93C[C@H](C(=O)O)C[C@H]93C(=O)N94C[C@H](C(=O)O)C[C@H]94C(=O)N95C[C@H](C(=O)O)C[C@H]95C(=O)N96C[C@H](C(=O)O)C[C@H]96C(=O)N97C[C@H](C(=O)O)C[C@H]97C(=O)N98C[C@H](C(=O)O)C[C@H]98C(=O)N99C[C@H](C(=O)O)C[C@H]99C(=O)N100C[C@H](C(=O)O)C[C@H]100C(=O)N101C[C@H](C(=O)O)C[C@H]101C(=O)N102C[C@H](C(=O)O)C[C@H]102C(=O)N103C[C@H](C(=O)O)C[C@H]103C(=O)N104C[C@H](C(=O)O)C[C@H]104C(=O)N105C[C@H](C(=O)O)C[C@H]105C(=O)N106C[C@H](C(=O)O)C[C@H]106C(=O)N107C[C@H](C(=O)O)C[C@H]107C(=O)N108C[C@H](C(=O)O)C[C@H]108C(=O)N109C[C@H](C(=O)O)C[C@H]109C(=O)N110C[C@H](C(=O)O)C[C@H]110C(=O)N111C[C@H](C(=O)O)C[C@H]111C(=O)N112C[C@H](C(=O)O)C[C@H]112C(=O)N113C[C@H](C(=O)O)C[C@H]113C(=O)N114C[C@H](C(=O)O)C[C@H]114C(=O)N115C[C@H](C(=O)O)C[C@H]115C(=O)N116C[C@H](C(=O)O)C[C@H]116C(=O)N117C[C@H](C(=O)O)C[C@H]117C(=O)N118C[C@H](C(=O)O)C[C@H]118C(=O)N119C[C@H](C(=O)O)C[C@H]119C(=O)N120C[C@H](C(=O)O)C[C@H]120C(=O)N121C[C@H](C(=O)O)C[C@H]121C(=O)N122C[C@H](C(=O)O)C[C@H]122C(=O)N123C[C@H](C(=O)O)C[C@H]123C(=O)N124C[C@H](C(=O)O)C[C@H]124C(=O)N125C[C@H](C(=O)O)C[C@H]125C(=O)N126C[C@H](C(=O)O)C[C@H]126C(=O)N127C[C@H](C(=O)O)C[C@H]127C(=O)N128C[C@H](C(=O)O)C[C@H]128C(=O)N129C[C@H](C(=O)O)C[C@H]129C(=O)N130C[C@H](C(=O)O)C[C@H]130C(=O)N131C[C@H](C(=O)O)C[C@H]131C(=O)N132C[C@H](C(=O)O)C[C@H]132C(=O)N133C[C@H](C(=O)O)C[C@H]133C(=O)N134C[C@H](C(=O)O)C[C@H]134C(=O)N135C[C@H](C(=O)O)C[C@H]135C(=O)N136C[C@H](C(=O)O)C[C@H]136C(=O)N137C[C@H](C(=O)O)C[C@H]137C(=O)N138C[C@H](C(=O)O)C[C@H]138C(=O)N139C[C@H](C(=O)O)C[C@H]139C(=O)N140C[C@H](C(=O)O)C[C@H]140C(=O)N141C[C@H](C(=O)O)C[C@H]141C(=O)N142C[C@H](C(=O)O)C[C@H]142C(=O)N143C[C@H](C(=O)O)C[C@H]143C(=O)N144C[C@H](C(=O)O)C[C@H]144C(=O)N145C[C@H](C(=O)O)C[C@H]145C(=O)N146C[C@H](C(=O)O)C[C@H]146C(=O)N147C[C@H](C(=O)O)C[C@H]147C(=O)N148C[C@H](C(=O)O)C[C@H]148C(=O)N149C[C@H](C(=O)O)C[C@H]149C(=O)N150C[C@H](C(=O)O)C[C@H]150C(=O)N151C[C@H](C(=O)O)C[C@H]151C(=O)N152C[C@H](C(=O)O)C[C@H]152C(=O)N153C[C@H](C(=O)O)C[C@H]153C(=O)N154C[C@H](C(=O)O)C[C@H]154C(=O)N155C[C@H](C(=O)O)C[C@H]155C(=O)N156C[C@H](C(=O)O)C[C@H]156C(=O)N157C[C@H](C(=O)O)C[C@H]157C(=O)N158C[C@H](C(=O)O)C[C@H]158C(=O)N159C[C@H](C(=O)O)C[C@H]159C(=O)N160C[C@H](C(=O)O)C[C@H]160C(=O)N161C[C@H](C(=O)O)C[C@H]161C(=O)N162C[C@H](C(=O)O)C[C@H]162C(=O)N163C[C@H](C(=O)O)C[C@H]163C(=O)N164C[C@H](C(=O)O)C[C@H]164C(=O)N165C[C@H](C(=O)O)C[C@H]165C(=O)N166C[C@H](C(=O)O)C[C@H]166C(=O)N167C[C@H](C(=O)O)C[C@H]167C(=O)N168C[C@H](C(=O)O)C[C@H]168C(=O)N169C[C@H](C(=O)O)C[C@H]169C(=O)N170C[C@H](C(=O)O)C[C@H]170C(=O)N171C[C@H](C(=O)O)C[C@H]171C(=O)N172C[C@H](C(=O)O)C[C@H]172C(=O)N173C[C@H](C(=O)O)C[C@H]173C(=O)N174C[C@H](C(=O)O)C[C@H]174C(=O)N175C[C@H](C(=O)O)C[C@H]175C(=O)N176C[C@H](C(=O)O)C[C@H]176C(=O)N177C[C@H](C(=O)O)C[C@H]177C(=O)N178C[C@H](C(=O)O)C[C@H]178C(=O)N179C[C@H](C(=O)O)C[C@H]179C(=O)N180C[C@H](C(=O)O)C[C@H]180C(=O)N181C[C@H](C(=O)O)C[C@H]181C(=O)N182C[C@H](C(=O)O)C[C@H]182C(=O)N183C[C@H](C(=O)O)C[C@H]183C(=O)N184C[C@H](C(=O)O)C[C@H]184C(=O)N185C[C@H](C(=O)O)C[C@H]185C(=O)N186C[C@H](C(=O)O)C[C@H]186C(=O)N187C[C@H](C(=O)O)C[C@H]187C(=O)N188C[C@H](C(=O)O)C[C@H]188C(=O)N189C[C@H](C(=O)O)C[C@H]189C(=O)N190C[C@H](C(=O)O)C[C@H]190C(=O)N191C[C@H](C(=O)O)C[C@H]191C(=O)N192C[C@H](C(=O)O)C[C@H]192C(=O)N193C[C@H](C(=O)O)C[C@H]193C(=O)N194C[C@H](C(=O)O)C[C@H]194C(=O)N195C[C@H](C(=O)O)C[C@H]195C(=O)N196C[C@H](C(=O)O)C[C@H]196C(=O)N197C[C@H](C(=O)O)C[C@H]197C(=O)N198C[C@H](C(=O)O)C[C@H]198C(=O)N199C[C@H](C(=O)O)C[C@H]199C(=O)N200C[C@H](C(=O)O)C[C@H]200C(=O)N201C[C@H](C(=O)O)C[C@H]201C(=O)N202C[C@H](C(=O)O)C[C@H]202C(=O)N203C[C@H](C(=O)O)C[C@H]203C(=O)N204C[C@H](C(=O)O)C[C@H]204C(=O)N205C[C@H](C(=O)O)C[C@H]205C(=O)N206C[C@H](C(=O)O)C[C@H]206C(=O)N207C[C@H](C(=O)O)C[C@H]207C(=O)N208C[C@H](C(=O)O)C[C@H]208C(=O)N209C[C@H](C(=O)O)C[C@H]209C(=O)N210C[C@H](C(=O)O)C[C@H]210C(=O)N211C[C@H](C(=O)O)C[C@H]211C(=O)N212C[C@H](C(=O)O)C[C@H]212C(=O)N213C[C@H](C(=O)O)C[C@H]213C(=O)N214C[C@H](C(=O)O)C[C@H]214C(=O)N215C[C@H](C(=O)O)C[C@H]215C(=O)N216C[C@H](C(=O)O)C[C@H]216C(=O)N217C[C@H](C(=O)O)C[C@H]217C(=O)N218C[C@H](C(=O)O)C[C@H]218C(=O)N219C[C@H](C(=O)O)C[C@H]219C(=O)N220C[C@H](C(=O)O)C[C@H]220C(=O)N221C[C@H](C(=O)O)C[C@H]221C(=O)N222C[C@H](C(=O)O)C[C@H]222C(=O)N223C[C@H](C(=O)O)C[C@H]223C(=O)N224C[C@H](C(=O)O)C[C@H]224C(=O)N225C[C@H](C(=O)O)C[C@H]225C(=O)N226C[C@H](C(=O)O)C[C@H]226C(=O)N227C[C@H](C(=O)O)C[C@H]227C(=O)N228C[C@H](C(=O)O)C[C@H]228C(=O)N229C[C@H](C(=O)O)C[C@H]229C(=O)N230C[C@H](C(=O)O)C[C@H]230C(=O)N231C[C@H](C(=O)O)C[C@H]231C(=O)N232C[C@H](C(=O)O)C[C@H]232C(=O)N233C[C@H](C(=O)O)C[C@H]233C(=O)N234C[C@H](C(=O)O)C[C@H]234C(=O)N235C[C@H](C(=O)O)C[C@H]235C(=O)N236C[C@H](C(=O)O)C[C@H]236C(=O)N237C[C@H](C(=O)O)C[C@H]237C(=O)N238C[C@H](C(=O)O)C[C@H]238C(=O)N239C[C@H](C(=O)O)C[C@H]239C(=O)N240C[C@H](C(=O)O)C[C@H]240C(=O)N241C[C@H](C(=O)O)C[C@H]241C(=O)N242C[C@H](C(=O)O)C[C@H]242C(=O)N243C[C@H](C(=O)O)C[C@H]243C(=O)N244C[C@H](C(=O)O)C[C@H]244C(=O)N245C[C@H](C(=O)O)C[C@H]245C(=O)N246C[C@H](C(=O)O)C[C@H]246C(=O)N247C[C@H](C(=O)O)C[C@H]247C(=O)N248C[C@H](C(=O)O)C[C@H]248C(=O)N249C[C@H](C(=O)O)C[C@H]249C(=O)N250C[C@H](C(=O)O)C[C@H]250C(=O)N251C[C@H](C(=O)O)C[C@H]251C(=O)N252C[C@H](C(=O)O)C[C@H]252C(=O)N253C[C@H](C(=O)O)C[C@H]253C(=O)N254C[C@H](C(=O)O)C[C@H]254C(=O)N255C[C@H](C(=O)O)C[C@H]255C(=O)N256C[C@H](C(=O)O)C[C@H]256C(=O)N257C[C@H](C(=O)O)C[C@H]257C(=O)N258C[C@H](C(=O)O)C[C@H]258C(=O)N259C[C@H](C(=O)O)C[C@H]259C(=O)N260C[C@H](C(=O)O)C[C@H]260C(=O)N261C[C@H](C(=O)O)C[C@H]261C(=O)N262C[C@H](C(=O)O)C[C@H]262C(=O)N263C[C@H](C(=O)O)C[C@H]263C(=O)N264C[C@H](C(=O)O)C[C@H]264C(=O)N265C[C@H](C(=O)O)C[C@H]265C(=O)N266C[C@H](C(=O)O)C[C@H]266C(=O)N267C[C@H](C(=O)O)C[C@H]267C(=O)N268C[C@H](C(=O)O)C[C@H]268C(=O)N269C[C@H](C(=O)O)C[C@H]269C(=O)N270C[C@H](C(=O)O)C[C@H]270C(=O)N271C[C@H](C(=O)O)C[C@H]271C(=O)N272C[C@H](C(=O)O)C[C@H]272C(=O)N273C[C@H](C(=O)O)C[C@H]273C(=O)N274C[C@H](C(=O)O)C[C@H]274C(=O)N275C[C@H](C(=O)O)C[C@H]275C(=O)N276C[C@H](C(=O)O)C[C@H]276C(=O)N277C[C@H](C(=O)O)C[C@H]277C(=O)N278C[C@H](C(=O)O)C[C@H]278C(=O)N279C[C@H](C(=O)O)C[C@H]279C(=O)N280C[C@H](C(=O)O)C[C@H]280C(=O)N281C[C@H](C(=O)O)C[C@H]281C(=O)N282C[C@H](C(=O)O)C[C@H]282C(=O)N283C[C@H](C(=O)O)C[C@H]283C(=O)N284C[C@H](C(=O)O)C[C@H]284C(=O)N285C[C@H](C(=O)O)C[C@H]285C(=O)N286C[C@H](C(=O)O)C[C@H]286C(=O)N287C[C@H](C(=O)O)C[C@H]287C(=O)N288C[C@H](C(=O)O)C[C@H]288C(=O)N289C[C@H](C(=O)O)C[C@H]289C(=O)N290C[C@"
+    },
+    {
+        "id": "40f218bc-2214-48b8-be72-af568f6ce937",
+        "gt": "CO",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "ae0b557d-1c83-48ed-8e1b-56a2f442fa86",
+        "gt": "COCCOC.O",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "c36bc16c-2614-4346-8f14-4ec8e38f7c74",
+        "gt": "O",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CC(C)(C)O\"\n}\n```"
+    },
+    {
+        "id": "7cdda33e-ddea-4ba1-aca6-748c99db9ed8",
+        "gt": "O=C([O-])[O-].[Na+].[Na+]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"N#CCOC(=O)c1cccc(N(C)C2CCCC2)c1Br\"\n}\n```"
+    },
+    {
+        "id": "b18cf4c1-2c62-4599-bb9c-09687dcfc4f4",
+        "gt": "[Mg]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"BrCCCN\"\n}\n```"
+    },
+    {
+        "id": "23875f12-890e-4b8d-87fa-1a32445ccaa3",
+        "gt": "O=C([O-])[O-].[Cs+].[Cs+]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"ClCCl\"\n}\n```"
+    },
+    {
+        "id": "daff5020-6eb8-4c9c-a154-000d0c687dff",
+        "gt": "[Pd]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CC(C)(O)C(=O)O\"\n}\n```"
+    },
+    {
+        "id": "78f185f6-f82c-4220-abb1-f197a9b26fdb",
+        "gt": "[Pd]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CC(C)(C)OC(=O)N1CCN(CC2CCCC3CCC2C3)C1\"\n}\n```"
+    },
+    {
+        "id": "ae9cd250-0ed0-41fe-997c-a94c644e0ae6",
+        "gt": "[Pd]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CC(C)NC(=O)C1=CC=C(C=C1)C(=O)O\"\n}\n```"
+    },
+    {
+        "id": "17076565-3284-4f36-b2ba-c3e0e94f988d",
+        "gt": "CCO.O",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "1e6d8075-f2fa-4421-b06c-cb2f0345356b",
+        "gt": "CO",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "83d6be9c-7cee-4738-9d52-ff6ebc56c636",
+        "gt": "C1CCOC1.CCO",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "f572d160-af0f-4f06-8829-21a4d4ccdde6",
+        "gt": "CCOCC",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CC(C)NC(=O)C1=CC=C(C=C1)Cl\"\n}\n```"
+    },
+    {
+        "id": "d539397c-5d41-4d5d-8bf9-0cb220e382d3",
+        "gt": "[H][H]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"NC(=O)C(F)(F)F\"\n}\n```"
+    },
+    {
+        "id": "106d8d73-e548-4124-97bb-c83ff1d6e90a",
+        "gt": "O=C[O-].[NH4+]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"ClCCl\"\n}\n```"
+    },
+    {
+        "id": "a593d190-0103-43f8-b5d3-0de533e8300f",
+        "gt": "O=[Os](=O)(=O)=O",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"[Os](=O)(=O)=O\"\n}\n```"
+    },
+    {
+        "id": "b45907f3-4c17-4d89-a7cf-3deeee93da9f",
+        "gt": "CN(C)c1ccncc1",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"O=S(=O)(O)C\"\n}\n```"
+    },
+    {
+        "id": "ef8f78ef-66e2-48e0-bc05-36fd4435b12d",
+        "gt": "c1ccc([P](c2ccccc2)(c2ccccc2)[Pd]([P](c2ccccc2)(c2ccccc2)c2ccccc2)([P](c2ccccc2)(c2ccccc2)c2ccccc2)[P](c2ccccc2)(c2ccccc2)c2ccccc2)cc1",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"[H+]\"\n}\n```"
+    },
+    {
+        "id": "a1a6ca72-96cc-4bbb-96cb-730719077277",
+        "gt": "C1COCCO1",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "b430b2ef-ef3b-49b8-9970-c1abaf0af721",
+        "gt": "C1CCOC1",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "731ba6cf-5f96-49a9-aa89-0365bb753dbc",
+        "gt": "C1CCOC1",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "605f3861-dfa9-419d-97c6-112cfc197196",
+        "gt": "CCN(CC)CC",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"OC(=O)C(F)(F)F\"\n}\n```"
+    },
+    {
+        "id": "728686ca-44cb-47e7-b5a6-2e67e1aea0db",
+        "gt": "CCN(CC)CC",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"NC(=O)OC(C)(C)C\"\n}\n```"
+    },
+    {
+        "id": "08cb3c97-43e0-4df8-9149-2e863e5227cc",
+        "gt": "CCN(C(C)C)C(C)C.CO",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"O=[N+](c1cnccc1Cl)[O-]\"\n}\n```"
+    },
+    {
+        "id": "da3c2c5a-44dc-4819-8ae4-e85ab765481a",
+        "gt": "[Pd]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"O=C1OCc2c1cnc1ccccc21\"\n}\n```"
+    },
+    {
+        "id": "96094472-a81f-48e5-b7a6-36a8b98d582b",
+        "gt": "c1ccc([P](c2ccccc2)(c2ccccc2)[Pd]([P](c2ccccc2)(c2ccccc2)c2ccccc2)([P](c2ccccc2)(c2ccccc2)c2ccccc2)[P](c2ccccc2)(c2ccccc2)c2ccccc2)cc1",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"O=S(=O)(F)C(F)(F)F\"\n}\n```"
+    },
+    {
+        "id": "24f98110-0de4-4fea-967c-e49502326aeb",
+        "gt": "[Pd]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CC(C)(C)OC(=O)N1C(=O)C2=C(NC(=O)C3=C(NC(=O)C2=O)C(Cl)=C3O)C(=O)C1=O\"\n}\n```"
+    },
+    {
+        "id": "4364be16-dbae-461b-bfee-46b5dbbdf971",
+        "gt": "CO",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "0fccf3d3-4940-4892-bba0-3ba165355aa3",
+        "gt": "CO",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "f635de64-c0a2-4efa-9caf-8e3be0d4481e",
+        "gt": "CC(=O)O.O",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"ClCCl\"\n}\n```"
+    },
+    {
+        "id": "235437c7-a6c5-4c2f-889e-1d7bfbe68f8f",
+        "gt": "[Cl-].[NH4+]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"BrCCN\"\n}\n```"
+    },
+    {
+        "id": "e7d02aaf-5fc7-48e4-8457-e15a5519e5e9",
+        "gt": "[H][H]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"ClCN\"\n}\n```"
+    },
+    {
+        "id": "14ebeed3-f51d-4bd5-a77e-82816d9ffbc9",
+        "gt": "CN(C)C=O.O=C([O-])[O-].[Na+].[Na+]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"BrCCBr\"\n}\n```"
+    },
+    {
+        "id": "119a8762-ae24-4d75-8949-1f19dc9f6796",
+        "gt": "Cc1ccc(S(=O)(=O)O)cc1",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CC(C)(C)OC(=O)N1C(=O)c2ccccc2C1=O\"\n}\n```"
+    },
+    {
+        "id": "fc83664c-188b-4cca-b71c-1077ee8202b6",
+        "gt": "[Cu]I",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"Clc1ccc2c(c1)nc3c(c2C(=O)OC)sc3C(=O)OC\"\n}\n```"
+    },
+    {
+        "id": "2cef9882-7ec5-408e-ad67-5dc387418543",
+        "gt": "I[Cu]I",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"OC(=O)C1=CC=C(C=C1)C(=O)O\"\n}\n```"
+    },
+    {
+        "id": "b768d2e7-d9a5-4a5c-9a7c-84937584936d",
+        "gt": "CO",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "691bd604-684c-4628-a23b-9e9094c834a9",
+        "gt": "CO",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "c8834292-4517-4f95-9c0e-895761d4d681",
+        "gt": "COCCOC",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CC(C)OC(C)(F)F\"\n}\n```"
+    },
+    {
+        "id": "f0baaf1e-e20c-4290-94f9-2ef132bc5e8a",
+        "gt": "Cl",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"Nc1ccc(N2CCN(CC3CC3)CC2)cc1\"\n}\n```"
+    },
+    {
+        "id": "d2bc2b4e-ce38-4fe1-9416-315b541a6494",
+        "gt": "Cl",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"Clc1nc(-c2ncco2)nc2cn[nH]c12\"\n}\n```"
+    },
+    {
+        "id": "aeb8db10-84cc-4c04-87f4-87eb384fd24e",
+        "gt": "N[C@@H]1CCCC[C@H]1N.O=P([O-])([O-])[O-].[K+].[K+].[K+]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"Clc1cccc(I)c1\"\n}\n```"
+    },
+    {
+        "id": "b6c03fb9-a860-41b1-b25e-81d2bbb411fd",
+        "gt": "O=[Os](=O)(=O)=O",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"[Os](=O)(=O)(=O)=[O]\"\n}\n```"
+    },
+    {
+        "id": "191efd4b-57a2-4732-ae77-ae8f609e9e60",
+        "gt": "O=[Os](=O)(=O)=O",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"[Os](=O)(=O)(=O)=[O]\"\n}\n```"
+    },
+    {
+        "id": "ba2b7aa3-e48b-493c-9783-0627010ae9e0",
+        "gt": "O=[Os](=O)(=O)=O",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"O=[Os](=O)(=O)=O\"\n}\n```"
+    },
+    {
+        "id": "c274f5b1-3222-465a-81a4-afbc003004d0",
+        "gt": "C1CCOC1",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "154c59fe-2f5d-40af-a238-740d883e98d1",
+        "gt": "CS(C)=O",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "5e45322f-b2b2-46b6-bd6f-ec66317aaef3",
+        "gt": "C1COCCO1.O",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "261db31b-ae75-48a7-b841-6cb73727c89a",
+        "gt": "[Na+].[O-][I+3]([O-])([O-])[O-]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"O=[Os](=O)(=O)=O\"\n}\n```"
+    },
+    {
+        "id": "c385539c-a860-4eb0-a5e8-895ac5a6cb3c",
+        "gt": "[Na+].[O-][I+3]([O-])([O-])[O-]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"O=[Os](=O)(=O)=O\"\n}\n```"
+    },
+    {
+        "id": "0d327fed-2d7d-4e14-8236-415ef1a81e32",
+        "gt": "O",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"O=C([O-])[N+](C)Cc1ccccc1\"\n}\n```"
+    },
+    {
+        "id": "00146f86-24d0-498d-8265-84912530a6e1",
+        "gt": "CN(C)c1ccncc1",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CC(C)C(=O)O\"\n}\n```"
+    },
+    {
+        "id": "f305b982-5fcb-445b-b1b0-17a96791c7a2",
+        "gt": "CN(C)C=O",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"O=C([O-])[N+(H)(H)H]\"\n}\n```"
+    },
+    {
+        "id": "3ecc95ef-2260-4f95-957e-6d52503f0293",
+        "gt": "CN(C)c1ccncc1",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"O=C(O)C1OC(=O)c2ccccc21\"\n}\n```"
+    },
+    {
+        "id": "ab40702d-430a-44c2-8a24-5ebc653152dc",
+        "gt": "ClCCl",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "6a09e111-f47f-4839-82be-2cc0c46fe309",
+        "gt": "O",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "7cb9eb70-b8e3-43f6-91e2-eef9e0d75f94",
+        "gt": "CCOC(C)=O.ClCCl",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "0c31c118-60af-4200-b17c-287da96ca5a1",
+        "gt": "Cl.[Cl-].[NH4+]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CSCC(=O)NC(=O)C\"\n}\n```"
+    },
+    {
+        "id": "4e4376c4-490b-4e39-9756-a001faf3de7f",
+        "gt": "OC(=O)[O-].[Na+]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"NC(=O)C1CCCN(C2CCCCC2)C1\"\n}\n```"
+    },
+    {
+        "id": "5b4dfa3f-3ad0-4ed7-ba96-eac80f4eebd9",
+        "gt": "CCN(C(C)C)C(C)C",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"NC(=O)OCc1ccccc1\"\n}\n```"
+    },
+    {
+        "id": "6b920fd4-c010-44b5-acc3-21e62449ffba",
+        "gt": "[Zn]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CC(C)NC(=O)CSCC1CCCCC1\"\n}\n```"
+    },
+    {
+        "id": "77b884b8-88d5-4650-955a-2b9e92da1340",
+        "gt": "[Zn]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CC(C)(C)OC(=O)NC1CCC(C(=O)Nc2cc(OCc3ccc(C(=N)N)cc3)cc(OCc3ccc(C(=N)N)cc3)c2)CC1\"\n}\n```"
+    },
+    {
+        "id": "437b3be6-4fd7-414f-b454-4ff54f2279be",
+        "gt": "[Pd]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"[Rh+2].[P](F)(F)(F)(F)(F)F\"\n}\n```"
+    },
+    {
+        "id": "d9b1ed35-7022-4a43-9dad-c18f95a4282a",
+        "gt": "CCO",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "04e8f6f6-9380-4283-a8ee-eb02d85fb93c",
+        "gt": "CCO",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "6ede09fd-df22-46e0-9b19-d043a0496a12",
+        "gt": "CCO",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"CCO\"\n}\n```"
+    },
+    {
+        "id": "908f7adc-5c71-4ef0-8500-16a9dd84d854",
+        "gt": "CC(=O)O.OC(=O)[O-].[Na+]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"NC(=O)C\"\n}\n```"
+    },
+    {
+        "id": "14ae7e97-0e14-4698-abf7-1bb4319480f7",
+        "gt": "[Cl-].[NH4+]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"NC(=O)c1ccc(F)cc1F\"\n}\n```"
+    },
+    {
+        "id": "1ef540ed-17cc-4abf-b107-42215ee93845",
+        "gt": "[H][H]",
+        "task": "rcr",
+        "json_response": "```json\n{\n    \"SMILES\": \"[H+]\"\n}\n```"
+    }
+]
