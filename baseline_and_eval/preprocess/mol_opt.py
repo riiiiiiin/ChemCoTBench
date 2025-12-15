@@ -1,6 +1,9 @@
 from .preprocessor import Preprocessor
 import regex as re
 import json
+import logging
+
+logger = logging.getLogger(__name__)
 
 mol_pattern = re.compile(r'Source Molecule:\s*(?P<smiles>.+?)\.$', re.S)
 
@@ -24,7 +27,7 @@ class MolOptPreprocessor(Preprocessor):
         try:
             mol = extract_mol(data['query'])
         except:
-            print(f"Failed to extract molecule from {data['query']}")
+            logger.debug(f"Failed to extract molecule from {data['query']}")
             return None
         
         request_dict['src_smiles'] = mol
@@ -37,8 +40,3 @@ def get_preprocessors(base_path):
     return [
         get_preprocessor(task) for task in ['drd', 'gsk', 'jnk', 'logp', 'qed', 'solubility']
     ]
-    
-if __name__ == '__main__':
-    preprocessor = MolOptPreprocessor('/home/myc/ChemCoTTest/bench/mol_opt/logp.json', 'logp')
-    preprocessor.preprocess()
-    print(preprocessor.data[0])

@@ -1,6 +1,9 @@
 from ..preprocessor import Preprocessor
 import regex as re
 import json
+import logging
+
+logger = logging.getLogger(__name__)
 
 mol_pattern_A_B = re.compile(r'Molecule A:\s*(?P<smilesA>.+?)\s*,\s*Molecule B:(?P<smilesB>.+?)\s*\.$', re.S)
 
@@ -23,7 +26,7 @@ class EquivalencePreProcessor(Preprocessor):
             request_dict['src_smiles'] = molA
             request_dict['tgt_smiles'] = molB
         except:
-            print(f"Failed to extract molecule from {data['query']}")
+            logger.debug(f"Failed to extract molecule from {data['query']}")
             return None
         
         request_dict['gt'] = data['gt']

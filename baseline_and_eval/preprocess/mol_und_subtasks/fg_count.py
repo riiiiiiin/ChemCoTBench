@@ -1,6 +1,9 @@
 from ..preprocessor import Preprocessor
 import regex as re
 import json
+import logging
+
+logger = logging.getLogger(__name__)
 
 mol_pattern_mol_frag = re.compile(r'Input Molecule:\s*(?P<smiles>.+?)\s*,\s*Fragment Name:(?P<frag>.+?)\s*\.$', re.S)
 
@@ -23,7 +26,7 @@ class FGCountPreprocessor(Preprocessor):
             request_dict['smiles'] = mol
             request_dict['fg_name'] = frag
         except:
-            print(f"Failed to extract molecule from {data['query']}")
+            logger.debug(f"Failed to extract molecule from {data['query']}")
             return None
 
         meta_dict = json.loads(data['meta'])

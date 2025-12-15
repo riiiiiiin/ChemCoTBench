@@ -2,6 +2,10 @@ import json
 from eval.utils import tranform_str_to_json
 from eval.eval_molund import check_string_type
 from eval.eval_molund import eval_molund_from_list
+import logging
+import os
+
+logger = logging.getLogger(__name__)
 
 def evaluate_molund_score(model_name):
     task_dict = dict(
@@ -19,7 +23,7 @@ def evaluate_molund_score(model_name):
     result_dict = dict()
     
     for task in task_dict.keys():
-        print(model_name, task)
+        logger.info(f'evaluating {task} for model {model_name}')
         if 'llama' not in model_name:
             file_name = f"logs/{task_dict[task]}/{model_name}.json"
             
@@ -59,7 +63,10 @@ def evaluate_molund_score(model_name):
         
         assert len(pred_results) == invalid_number+len(pred_list)
         result_dict[task] = eval_molund_from_list(gt_list=gt_list, pred_list=pred_list, total_number=len(pred_results), task=task)
-        print(model_name, task, result_dict[task])
+        logger.debug(model_name, task, result_dict[task])
     
-    print(f"eval_score_{model_name}", result_dict)
-    # json.dump(result_dict, open(f"logs/eval_score_{model_name}.json", "w"), indent=4)
+    logger.info(f"eval_score_{model_name}_molund:\n\r{result_dict}")
+    os.makedirs("results/molund", exist_ok=True)
+    json.dump(result_dict, open(f"results/molund/eval_score_{model_name}.json", "w"), indent=4)
+    
+    return result_dict

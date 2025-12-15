@@ -1,7 +1,10 @@
 import json
 from eval.eval_molopt import eval_molopt_from_list
 from eval.utils import tranform_str_to_json
+import logging
+import os
 
+logger = logging.getLogger(__name__)
 
 def evaluate_molopt_score(model_name=None):
     ## 在get_molopt_cot中得到test结果, 我们评测这些test结果
@@ -11,7 +14,7 @@ def evaluate_molopt_score(model_name=None):
     result_final = dict()
     
     for prop in prop_dict.keys():
-        print(model_name, prop)
+        logger.info(f'evaluating {prop} for model {model_name}')
         file_name = f"logs/{prop}/{model_name}.json"
         pred_results = json.load(open(file_name, "r"))
         
@@ -30,7 +33,7 @@ def evaluate_molopt_score(model_name=None):
                 pred_json = tranform_str_to_json(str_input=pred['json_results'])
                 # if model_name == 'gemini': pred_json = pred_json[0]
                 if pred_json == None or type(pred_json) is str:
-                    print(pred['json_results'])
+                    logger.debug(pred['json_results'])
                     invalid_number += 1
                     continue
                 else:
@@ -38,7 +41,7 @@ def evaluate_molopt_score(model_name=None):
                         tgt_smiles_list.append(pred_json[final_target_key])
                         src_smiles_list.append(pred[src_smiles_key])
                     else: 
-                        print(pred['json_results'])
+                        logger.debug(pred['json_results'])
                         invalid_number += 1
                         continue
             else:
@@ -46,12 +49,15 @@ def evaluate_molopt_score(model_name=None):
                     tgt_smiles_list.append(pred['json_results'][final_target_key])
                     src_smiles_list.append(pred[src_smiles_key])
         
-        print(len(pred_results), invalid_number, len(src_smiles_list))
+        logger.debug(len(pred_results), invalid_number, len(src_smiles_list))
         assert len(src_smiles_list) == len(tgt_smiles_list)
         assert len(pred_results) == invalid_number + len(src_smiles_list)
         
         result_dict = eval_molopt_from_list(optimized_prop=prop, gt_list=src_smiles_list, pred_list=tgt_smiles_list, total_number=len(pred_results))
         result_final[prop] = result_dict
     
-    print(f"eval_score_{model_name}", result_final)
-    # json.dump(result_final, open(f"../api_results/molopt_caohe/eval_score_{model_name}.json", "w"), indent=4)
+    logger.info(f"eval_score_{model_name}_molopt:\n\r{result_final}")
+    os.makedirs("results/molopt", exist_ok=True)
+    json.dump(result_final, open(f"results/molopt/eval_score_{model_name}.json", "w"), indent=4)
+    
+    return result_final

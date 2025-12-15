@@ -1,7 +1,10 @@
 import sys, re, os, json
 from .rxnutils import read_json, is_valid_smiles
 from eval.utils import tranform_str_to_json
+import logging
+import os
 
+logger = logging.getLogger(__name__)
 from evaluator import MoleculeSMILESEvaluator
 evaluator = MoleculeSMILESEvaluator()
 
@@ -15,7 +18,6 @@ subtask_to_result_key = {
 }
 
 def evaluate_mol(model_name: str, subtask: str, log_dir: str = None):
-    print(f'{model_name} {subtask}')
     if log_dir is None:
         log_dir = f"logs/{subtask}"
     
@@ -43,7 +45,7 @@ def evaluate_mol(model_name: str, subtask: str, log_dir: str = None):
                 pred = '.'.join(pred)
             preds.append(pred)
         except Exception as e:
-            print(f'error parsing {sample['json_response']}: {e}')
+            logger.debug(f'error parsing {sample['json_response']}: {e}')
             preds.append('')
         
     res = evaluator.evaluate(preds, gts)
@@ -93,12 +95,15 @@ def evaluate_rxn_score(model_name: str, logs_dir: str = 'logs'):
     all_results = {}
     subtasks = subtask_to_result_key.keys()
     for subtask in subtasks:
+        logger.info(f'evaluating {subtask} for model {model_name}')
         if subtask == 'MechSel':
             all_results[subtask] = evaluate_MechSel(model_name)
         elif subtask in ['major_product', 'byproduct']:
             all_results[subtask] = evaluate_mol(model_name, subtask, f"{logs_dir}/fs")
         else:
             all_results[subtask] = evaluate_mol(model_name, subtask)
-    print(f"eval_score_{model_name}", all_results)
+    logger.info(f"eval_score_{model_name}_rxn:\n\r{all_results}")
+    os.makedirs("results/rxn", exist_ok=True)
+    json.dump(all_results, open(f"results/rxn/eval_score_{model_name}.json", "w"), indent=4)
 
-
+    return all_results

@@ -1,12 +1,16 @@
 import json
 from eval.eval_moledit import eval_moledit_from_list
 from eval.utils import tranform_str_to_json
+import logging
+import os
+
+logger = logging.getLogger(__name__)
 
 def evaluate_moledit_score(model_name): 
     result_dict = dict()
     
     for task in ['add', 'delete', 'sub']:
-        print(model_name, task)
+        logger.info(f'evaluating {task} for model {model_name}')
         file_name = f"logs/{task}/{model_name}.json" 
         pred_results = json.load(open(file_name, "r"))
         
@@ -44,5 +48,8 @@ def evaluate_moledit_score(model_name):
         
         result_dict[task] = eval_moledit_from_list(src_list=src_list, pred_list=pred_list, group_a=group_a, group_b=group_b, task=task, total_number=len(pred_list)) 
     
-    print(f"eval_score_{model_name}", result_dict)
-    # json.dump(result_dict, open(f"logs/eval_score_{model_name}.json", "w"), indent=4)
+    logger.info(f"eval_score_{model_name}_moledit:\n\r{result_dict}")
+    os.makedirs("results/moledit")
+    json.dump(result_dict, open(f"results/moledit/eval_score_{model_name}.json", "w"), indent=4)
+    
+    return result_dict

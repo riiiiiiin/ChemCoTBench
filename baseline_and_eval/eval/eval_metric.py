@@ -14,6 +14,9 @@ import re
 from typing import Optional, Literal
 import json
 from collections import namedtuple
+import logging
+
+logger = logging.getLogger(__name__)
 
 def parse_raw_response(
     raw_response: str,
@@ -142,7 +145,7 @@ class ESOLCalculator:
             return esol
         
         except Exception as e:
-            print(f"Error calculating solubility: {e}")
+            logger.debug(f"Error calculating solubility: {e}")
             return None
 
 def compute_statistics(numbers, prop, skew=False):
@@ -284,5 +287,5 @@ def is_valid_smiles(smiles):
     try:
         return Chem.MolFromSmiles(smiles) is not None
     except:
-        print(smiles)
+        logger.debug(smiles)
         return False

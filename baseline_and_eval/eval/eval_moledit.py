@@ -7,6 +7,9 @@ from rdkit.Chem import AllChem, Descriptors
 from rdkit import DataStructs
 from rdkit.Chem import Draw
 from rdkit.Chem.Fingerprints import FingerprintMols
+import logging
+
+logger = logging.getLogger(__name__)
 
 def mol_prop(mol, prop):
     try:
@@ -250,18 +253,19 @@ GROUP_TO_SMARTS = {
 }
 
 def check_edit_add_valid(src, tgt, group)->bool:
-    if group not in GROUP_SET: print(group)
+    if group not in GROUP_SET:
+        logger.warning(f"Unknown group: {group}")
     assert group in GROUP_SET
     assert is_valid_smiles(src), f"无效的源分子SMILES: {src}" 
     try:
         assert is_valid_smiles(tgt), f"无效的目标分子SMILES: {tgt}"
     except Exception as e:
-        print(e)
+        logger.debug(e)
         return False
     if mol_prop(tgt, "num_"+group) == mol_prop(src, "num_"+group) + 1:
         return True
     else:
-        print(f"添加{group}失败: 目标分子中{group}数量为{mol_prop(tgt, 'num_' + group)}, 源分子中{group}数量为{mol_prop(src, 'num_' + group)}")
+        logger.debug(f"添加{group}失败: 目标分子中{group}数量为{mol_prop(tgt, 'num_' + group)}, 源分子中{group}数量为{mol_prop(src, 'num_' + group)}")
         return False
 
 def check_edit_del_valid(src, tgt, group)->bool:
@@ -270,7 +274,7 @@ def check_edit_del_valid(src, tgt, group)->bool:
     try:
         assert is_valid_smiles(tgt), f"无效的目标分子SMILES: {tgt}"
     except Exception as e:
-        print(e)
+        logger.debug(e)
         return False
     return mol_prop(tgt, "num_"+group) == mol_prop(src, "num_"+group) - 1
 
@@ -281,7 +285,7 @@ def check_edit_sub_valid(src, tgt, remove_group, add_group)->bool:
     try:
         assert is_valid_smiles(tgt), f"无效的目标分子SMILES: {tgt}"
     except Exception as e:
-        print(e)
+        logger.debug(e)
         return False
     return mol_prop(tgt, "num_"+remove_group) == mol_prop(src, "num_"+remove_group) - 1 and mol_prop(tgt, "num_"+add_group) == mol_prop(src, "num_"+add_group) + 1
 
