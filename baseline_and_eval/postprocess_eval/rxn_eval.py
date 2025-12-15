@@ -45,7 +45,7 @@ def evaluate_mol(model_name: str, subtask: str, log_dir: str = None):
                 pred = '.'.join(pred)
             preds.append(pred)
         except Exception as e:
-            logger.debug(f'error parsing {sample['json_response']}: {e}')
+            logger.debug(f'error parsing {sample["json_response"]}: {e}')
             preds.append('')
         
     res = evaluator.evaluate(preds, gts)
