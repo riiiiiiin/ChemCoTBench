@@ -22,7 +22,6 @@ llm = RemoteLLM(api_key, base_url, model_name)
 
 # %%
 for preprocessor in preprocessors:
-    continue
     preprocessor.preprocess()
     requests = preprocessor.get_all_requests()
     responses = llm.predict([request for request in requests])
@@ -30,7 +29,7 @@ for preprocessor in preprocessors:
     for i, request in enumerate(preprocessor.get_all_data()):
         request['json_response' if preprocessor.task in ['fs', 'mechsel', 'nepp', 'RCR', 'retro'] else 'json_results'] = responses[i]
         
-    json.dump(preprocessor.get_all_data(), open(f'{preprocessor.task}.json', 'w'), indent=4)
+    json.dump(preprocessor.get_all_data(), open(f'logs/{preprocessor.task}/{model_name}.json', 'w'), indent=4)
 
 # %%
 
