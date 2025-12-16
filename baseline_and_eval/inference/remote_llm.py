@@ -23,7 +23,10 @@ class RemoteLLM(InferenceInterface):
     
 def call_direct(api_key, base_url, model_name, messages, temperature=0, enable_thinking=False):
     url = f"{base_url.rstrip('/')}/chat/completions"
-    headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+    if api_key:
+        headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+    else:
+        headers = {"Content-Type": "application/json"}
     payload = {
         "model": model_name,
         "messages": messages,
