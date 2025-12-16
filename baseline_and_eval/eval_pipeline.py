@@ -21,7 +21,7 @@ logger = logging.getLogger()
 if not logger.hasHandlers():
     logging.basicConfig(level=logging.INFO, format='[%(levelname)s] %(message)s')
 # %%
-preprocessors = get_preprocessors('/home/myc/ChemCoTTest/bench')
+preprocessors = get_preprocessors('../bench')
 api_key = args.api_key
 base_url = args.base_url
 model_name = args.model_name
