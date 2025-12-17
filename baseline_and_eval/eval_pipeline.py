@@ -43,7 +43,7 @@ for preprocessor in preprocessors:
     requests = preprocessor.get_all_requests()
     responses = llm.predict([request for request in requests])
     for i, request in enumerate(preprocessor.get_all_data()):
-        request['json_response' if preprocessor.task in ['fs', 'mechsel', 'nepp', 'RCR', 'retro'] else 'json_results'] = responses[i]
+        request['json_response' if preprocessor.task in ['fs', 'mechsel', 'nepp', 'rcr', 'retro'] else 'json_results'] = responses[i]
         
     json.dump(preprocessor.get_all_data(), open(f'logs/{preprocessor.task}/{log_name}.json', 'w'), indent=4)
 

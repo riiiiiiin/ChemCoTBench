@@ -9,7 +9,7 @@ from evaluator import MoleculeSMILESEvaluator
 evaluator = MoleculeSMILESEvaluator()
 
 subtask_to_result_key = {
-    "RCR": "SMILES",
+    "rcr": "SMILES",
     "nepp": "pred_smi",
     "mechsel": "choice",
     "major_product": "Major Product",
@@ -49,7 +49,7 @@ def evaluate_mol(model_name: str, subtask: str, log_dir: str = None):
             preds.append('')
         
     res = evaluator.evaluate(preds, gts)
-    if subtask in ['RCR', 'major_product', 'byproduct', 'retro']:
+    if subtask in ['rcr', 'major_product', 'byproduct', 'retro']:
         fts = (res['rdk_sims'] + res['maccs_sims'] + res['morgan_sims']) / 3
         res['fts'] = fts
         
