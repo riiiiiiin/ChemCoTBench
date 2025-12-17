@@ -49,7 +49,7 @@ def evaluate_molund_score(model_name):
                     pred_list.append(pred_json[pred_key_dict[task]])
                     if gt_key_dict[task] != "":
                         gt_list.append(pred[gt_key_dict[task]])
-            else:
+            elif type(pred['json_results']) is dict:
                 if pred_key_dict[task] not in pred['json_results'].keys():
                     invalid_number += 1; continue
                 if pred['json_results'][pred_key_dict[task]] == "": 
@@ -60,6 +60,8 @@ def evaluate_molund_score(model_name):
                 pred_list.append(pred['json_results'][pred_key_dict[task]])
                 if gt_key_dict[task] != "":
                     gt_list.append(pred[gt_key_dict[task]])
+            else:
+                invalid_number += 1; continue
         
         assert len(pred_results) == invalid_number+len(pred_list)
         result_dict[task] = eval_molund_from_list(gt_list=gt_list, pred_list=pred_list, total_number=len(pred_results), task=task)

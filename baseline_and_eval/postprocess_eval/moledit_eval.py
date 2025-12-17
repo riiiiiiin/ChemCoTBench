@@ -35,21 +35,23 @@ def evaluate_moledit_score(model_name):
                     elif task == 'delete': group_a.append(pred['removed_group'])
                     elif task == 'sub':
                         group_a.append(pred['added_group']); group_b.append(pred['removed_group'])
-            else:
+            elif type(pred['json_results']) is dict:
                 pred_list.append(pred['json_results']['output'])
                 src_list.append(pred['molecule'])
                 if task == 'add': group_a.append(pred['added_group'])
                 elif task == 'delete': group_a.append(pred['removed_group'])
                 elif task == 'sub':
                     group_a.append(pred['added_group']); group_b.append(pred['removed_group'])
+            else:
+                invalid_number += 1; continue
         
         assert len(src_list) == len(pred_list)
         assert len(src_list) == len(group_a)
         
-        result_dict[task] = eval_moledit_from_list(src_list=src_list, pred_list=pred_list, group_a=group_a, group_b=group_b, task=task, total_number=len(pred_list)) 
+        result_dict[task] = eval_moledit_from_list(src_list=src_list, pred_list=pred_list, group_a=group_a, group_b=group_b, task=task, total_number=len(pred_results)) 
     
     logger.info(f"eval_score_{model_name}_moledit:\n\r{result_dict}")
-    os.makedirs("results/moledit")
+    os.makedirs("results/moledit", exist_ok=True)
     json.dump(result_dict, open(f"results/moledit/eval_score_{model_name}.json", "w"), indent=4)
     
     return result_dict

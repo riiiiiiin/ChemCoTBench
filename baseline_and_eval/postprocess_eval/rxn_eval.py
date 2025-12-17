@@ -17,6 +17,20 @@ subtask_to_result_key = {
     "retro": "Reactants"
 }
 
+def _combine_list(raw):
+    if isinstance(raw, str):
+        try:
+            parsed = json.loads(raw)
+            if isinstance(parsed, list):
+                raw = '.'.join(parsed)
+            # 如果解析成功但不是 list，什么都不做
+        except (json.JSONDecodeError, TypeError):
+            # 不能解析为 JSON，什么都不做
+            pass
+    elif isinstance(raw, list):
+        raw = '.'.join(raw)
+    return raw
+
 def evaluate_mol(model_name: str, subtask: str, log_dir: str = None):
     if log_dir is None:
         log_dir = f"logs/{subtask}"
@@ -34,7 +48,8 @@ def evaluate_mol(model_name: str, subtask: str, log_dir: str = None):
         elif subtask == 'retro':
             if len(gt) == 0:
                 continue
-            gts.append('.'.join(gt))
+            gt = _combine_list(gt)
+            gts.append(gt)
         else:
             gts.append(gt)
 
@@ -42,16 +57,15 @@ def evaluate_mol(model_name: str, subtask: str, log_dir: str = None):
             pred_smiles = tranform_str_to_json(sample['json_response'])
             pred = pred_smiles.get(subtask_to_result_key[subtask], '')
             if subtask == 'retro':
-                pred = '.'.join(pred)
+                pred = _combine_list(pred)
             preds.append(pred)
         except Exception as e:
             logger.debug(f'error parsing {sample["json_response"]}: {e}')
             preds.append('')
         
     res = evaluator.evaluate(preds, gts)
-    if subtask in ['rcr', 'major_product', 'byproduct', 'retro']:
-        fts = (res['rdk_sims'] + res['maccs_sims'] + res['morgan_sims']) / 3
-        res['fts'] = fts
+    fts = (res['rdk_sims'] + res['maccs_sims'] + res['morgan_sims']) / 3
+    res['fts'] = fts
         
     return res
 
@@ -74,7 +88,7 @@ def evaluate_MechSel(model_name: str, logs_dir: str = 'logs/mechsel'):
     gts = []
     for sample in samples:
         pred_smiles = tranform_str_to_json(sample['json_response'])
-        pred_choice = pred_smiles[subtask_to_result_key['MechSel']]
+        pred_choice = pred_smiles[subtask_to_result_key['mechsel']]
         preds.append(pred_choice)
         if len(pred_choice) > 1:
             # if multiple chars, we take the first one
@@ -96,7 +110,7 @@ def evaluate_rxn_score(model_name: str, logs_dir: str = 'logs'):
     subtasks = subtask_to_result_key.keys()
     for subtask in subtasks:
         logger.info(f'evaluating {subtask} for model {model_name}')
-        if subtask == 'MechSel':
+        if subtask == 'MechSel' or subtask == 'mechsel':
             all_results[subtask] = evaluate_MechSel(model_name)
         elif subtask in ['major_product', 'byproduct']:
             all_results[subtask] = evaluate_mol(model_name, subtask, f"{logs_dir}/fs")

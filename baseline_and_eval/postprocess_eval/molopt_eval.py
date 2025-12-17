@@ -44,10 +44,16 @@ def evaluate_molopt_score(model_name=None):
                         logger.debug(pred['json_results'])
                         invalid_number += 1
                         continue
-            else:
+            elif type(pred['json_results']) is dict:
                 if final_target_key in pred['json_results'].keys():
                     tgt_smiles_list.append(pred['json_results'][final_target_key])
                     src_smiles_list.append(pred[src_smiles_key])
+                else:
+                    invalid_number += 1
+                    continue
+            else:
+                invalid_number += 1
+                continue
         
         logger.debug(len(pred_results), invalid_number, len(src_smiles_list))
         assert len(src_smiles_list) == len(tgt_smiles_list)
