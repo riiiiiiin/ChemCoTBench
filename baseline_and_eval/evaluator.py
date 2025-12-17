@@ -15,7 +15,7 @@ import selfies as sf
 from sklearn.metrics import accuracy_score, f1_score, mean_squared_error, mean_absolute_error, r2_score
 
 RDLogger.DisableLog('rdApp.*')
-nltk.download('wordnet')
+# nltk.download('wordnet')
 
 
 def exact_match(ot_smi, gt_smi):

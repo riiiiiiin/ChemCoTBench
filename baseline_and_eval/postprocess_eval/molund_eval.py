@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 def evaluate_molund_score(model_name):
     task_dict = dict(
-        fg_samples="fg_samples", murcko='murcko_scaffold', ring_count='ring_count',
+        fg_samples="fg_samples", murcko='Murcko_scaffold', ring_count='ring_count',
         ring_system='ring_system_scaffold', equivalence = 'equivalence'
     )
     pred_key_dict = dict(
