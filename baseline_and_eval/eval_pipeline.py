@@ -61,5 +61,5 @@ all_results = {
     'rxn': rxn_results
 }
 
-os.makedirs('results/all_results')
+os.makedirs('results/all_results', exist_ok=True)
 json.dump(all_results, open(f'results/all_results/{log_name}.json', 'w'), indent=4)

@@ -3,6 +3,8 @@ import json
 import regex as re
 
 def tranform_str_to_json(str_input):
+    if str_input is None:
+        return None
     ## 假如LLM输出的是类似json的字符串, 我需要设定一个逻辑, 把字符串重新转换成json
     ## o1-mini的感觉, 是要移除字符串里面的\n，并且把所有的\"都改成 "
     if "</think>\n\n" in str_input:
@@ -44,7 +46,6 @@ def tranform_str_to_json(str_input):
                     new_obj[k] = v
             return new_obj
         else: return obj
-
 
     processed = _replace_outputs(json_obj)
     return processed
