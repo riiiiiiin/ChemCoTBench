@@ -12,8 +12,12 @@ from argparse import ArgumentParser
 
 parser = ArgumentParser()
 parser.add_argument('--model_name', type=str, default='qwen3-8b')
+parser.add_argument('--log_name', type=str, default=None)
 parser.add_argument('--api_key', type=str, default='')
 parser.add_argument('--base_url', type=str, default='')
+parser.add_argument('--streaming', type=bool, default=False)
+parser.add_argument('--enable_thinking', type=bool, default=False)
+parser.add_argument('--skip_tasks', nargs='+', type=str, default=None)
 args = parser.parse_args()
 
 # %%
@@ -25,15 +29,19 @@ preprocessors = get_preprocessors('../bench')
 api_key = args.api_key
 base_url = args.base_url
 model_name = args.model_name
-llm = RemoteLLM(api_key, base_url, model_name)
-log_name = model_name.split('/')[-1]
+streaming = args.streaming
+enable_thinking = args.enable_thinking
+llm = RemoteLLM(api_key, base_url, model_name, streaming, enable_thinking)
+log_name = args.log_name if args.log_name else model_name.split('/')[-1]
+skip_tasks = args.skip_tasks
 
 # %%
 for preprocessor in preprocessors:
+    if skip_tasks and preprocessor.task in skip_tasks:
+        continue
     preprocessor.preprocess()
     requests = preprocessor.get_all_requests()
     responses = llm.predict([request for request in requests])
-    responses = [response['choices'][0]['message']['content'] for response in responses]
     for i, request in enumerate(preprocessor.get_all_data()):
         request['json_response' if preprocessor.task in ['fs', 'mechsel', 'nepp', 'RCR', 'retro'] else 'json_results'] = responses[i]
         
