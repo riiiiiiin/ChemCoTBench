@@ -2,6 +2,7 @@ import requests
 from .inference_interface import InferenceInterface
 from tqdm import tqdm
 import json
+import yaml
 
 class RemoteLLM(InferenceInterface):
     def __init__(self, api_key, base_url, model_name, streaming = False, enable_thinking = False):
@@ -15,22 +16,25 @@ class RemoteLLM(InferenceInterface):
         # not batched for remote api
         response = []
         for request in tqdm(input):
-            temperature = request.get("temperature", 0)
             enable_thinking = self.enable_thinking
             messages = request.get("messages", [])
             if self.streaming:
-                raw_response = call_direct_stream_raw(self.api_key, self.base_url, self.model_name, messages, temperature, enable_thinking)
+                raw_response = call_direct_stream_raw(self.api_key, self.base_url, self.model_name, messages, enable_thinking)
                 parsed_text = parse_stream_raw(raw_response["text"])
                 response.append(parsed_text)
             else:
                 raw_response = call_direct(self.api_key, self.base_url, self.model_name,
                             messages,
-                            temperature,
                             enable_thinking)
-                response.append(raw_response['choices'][0]['message']['content'])
+                if '127.0.0.1' in self.base_url and enable_thinking == False:
+                    # vllm places content in reasoning_content
+                    # might move this to a config file
+                    response.append(raw_response['choices'][0]['message']['reasoning_content'])
+                else:
+                    response.append(raw_response['choices'][0]['message']['content'])
         return response
     
-def call_direct(api_key, base_url, model_name, messages, temperature=0, enable_thinking=False):
+def call_direct(api_key, base_url, model_name, messages, enable_thinking=False):
     url = f"{base_url.rstrip('/')}/chat/completions"
     if api_key:
         headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
@@ -39,8 +43,8 @@ def call_direct(api_key, base_url, model_name, messages, temperature=0, enable_t
     payload = {
         "model": model_name,
         "messages": messages,
-        "temperature": temperature,
-        "enable_thinking": enable_thinking
+        "enable_thinking": enable_thinking,
+        "chat_template_kwargs": {"enable_thinking": enable_thinking}
     }
     r = requests.post(url, headers=headers, json=payload)
     r.raise_for_status()
@@ -51,7 +55,6 @@ def call_direct_stream_raw(
     base_url: str,
     model_name: str,
     messages,
-    temperature: float = 0.0,
     enable_thinking: bool = False,
     timeout = None
 ):
@@ -63,9 +66,9 @@ def call_direct_stream_raw(
     payload = {
         "model": model_name,
         "messages": messages,
-        "temperature": temperature,
         "enable_thinking": enable_thinking,
         "stream": True,
+        "chat_template_kwargs": {"enable_thinking": enable_thinking}
     }
 
     lines = []
