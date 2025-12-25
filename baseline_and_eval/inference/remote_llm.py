@@ -29,7 +29,7 @@ class RemoteLLM(InferenceInterface):
                 content = raw_response['choices'][0]['message']['content']
                 if not content:
                     content = raw_response['choices'][0]['message']['reasoning_content']
-                    print(content)
+                response.append(content)
         return response
     
 def call_direct(api_key, base_url, model_name, messages, enable_thinking=False):
