@@ -52,13 +52,13 @@ def call_direct(api_key, base_url, model_name, messages, enable_thinking=False):
         "model": model_name,
         "messages": messages,
         "enable_thinking": enable_thinking,
+        "temperature": temperature,
+        "top_p": top_p,
+        "min_p": min_p,
         "chat_template_kwargs": {
             "enable_thinking": enable_thinking,
-            "temperature": temperature,
-            "top_p": top_p,
             "top_k": top_k,
-            "min_p": min_p
-            },
+        },
     }
     r = requests.post(url, headers=headers, json=payload)
     r.raise_for_status()
