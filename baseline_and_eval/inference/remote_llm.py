@@ -40,11 +40,27 @@ def call_direct(api_key, base_url, model_name, messages, enable_thinking=False):
         headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
     else:
         headers = {"Content-Type": "application/json"}
+    if enable_thinking:
+        temperature=0.6,
+        top_p=0.95,
+        top_k=20
+        min_p=0
+    else:
+        temperature= 0.7,
+        top_p= 0.8,
+        top_k= 20,
+        min_p= 0,
     payload = {
         "model": model_name,
         "messages": messages,
         "enable_thinking": enable_thinking,
-        "chat_template_kwargs": {"enable_thinking": enable_thinking}
+        "chat_template_kwargs": {
+            "enable_thinking": enable_thinking,
+            "temperature": temperature,
+            "top_p": top_p,
+            "top_k": top_k,
+            "min_p": min_p
+            },
     }
     r = requests.post(url, headers=headers, json=payload)
     r.raise_for_status()

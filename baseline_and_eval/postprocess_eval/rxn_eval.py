@@ -88,6 +88,8 @@ def evaluate_MechSel(model_name: str, logs_dir: str = 'logs/mechsel'):
     gts = []
     for sample in samples:
         pred_smiles = tranform_str_to_json(sample['json_response'])
+        if pred_smiles is None:
+            continue
         pred_choice = pred_smiles[subtask_to_result_key['mechsel']]
         preds.append(pred_choice)
         if len(pred_choice) > 1:

@@ -204,3 +204,5 @@ __marimo__/
 
 # Evaluate results
 results/
+*.bash
+baseline_and_eval/logs/
