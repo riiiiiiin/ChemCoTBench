@@ -26,12 +26,10 @@ class RemoteLLM(InferenceInterface):
                 raw_response = call_direct(self.api_key, self.base_url, self.model_name,
                             messages,
                             enable_thinking)
-                if '127.0.0.1' in self.base_url and enable_thinking == False:
-                    # vllm places content in reasoning_content
-                    # might move this to a config file
-                    response.append(raw_response['choices'][0]['message']['reasoning_content'])
-                else:
-                    response.append(raw_response['choices'][0]['message']['content'])
+                content = raw_response['choices'][0]['message']['content']
+                if not content:
+                    content = raw_response['choices'][0]['message']['reasoning_content']
+                    print(content)
         return response
     
 def call_direct(api_key, base_url, model_name, messages, enable_thinking=False):
