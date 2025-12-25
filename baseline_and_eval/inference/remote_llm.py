@@ -39,15 +39,15 @@ def call_direct(api_key, base_url, model_name, messages, enable_thinking=False):
     else:
         headers = {"Content-Type": "application/json"}
     if enable_thinking:
-        temperature=0.6,
-        top_p=0.95,
+        temperature=0.6
+        top_p=0.95
         top_k=20
         min_p=0
     else:
-        temperature= 0.7,
-        top_p= 0.8,
-        top_k= 20,
-        min_p= 0,
+        temperature= 0.7
+        top_p= 0.8
+        top_k= 20
+        min_p= 0
     payload = {
         "model": model_name,
         "messages": messages,
@@ -55,9 +55,9 @@ def call_direct(api_key, base_url, model_name, messages, enable_thinking=False):
         "temperature": temperature,
         "top_p": top_p,
         "min_p": min_p,
+        "top_k": top_k,
         "chat_template_kwargs": {
             "enable_thinking": enable_thinking,
-            "top_k": top_k,
         },
     }
     r = requests.post(url, headers=headers, json=payload)
